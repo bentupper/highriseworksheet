@@ -1,0 +1,56 @@
+ /*========================================
+ *             CSRT ROSTER
+ 			CSS for CPT Version
+ ==========================================*/
+
+/* Styles the CSRT Roster page */
+.page-id-19010 {
+	background: none !important;
+	background-color: #eaeaea !important;
+	color: #000 !important;
+}
+
+/* Set max width for table and centers it on the screen */
+#csrt-roster-table {
+	max-width: 450px;
+	margin: auto;
+	border: 2px #000 solid;
+}
+
+/* Centers the table headings */
+#csrt-roster-table th {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+}
+
+/* Adds the grid within the table */
+#csrt-roster-table td {
+	font-size: 13px !important;
+	border: 1px solid darkgrey !important;
+}
+
+.csrt-main-heading {
+	font-size: 20px !important;
+}
+
+/* Add a thick border on the bottom of the 2nd header row */
+.csrt-roster-border-bottom {
+	border-bottom: 3px #000 solid !important;
+}
+
+/* Enlarges the Shift and the Date */
+.roster-shift,
+.roster-date {
+	font-size: 20px !important;
+	font-weight: bold !important;
+}
+
+/********************************************************************** 
+*
+*  The Date field of a new post is automatically assigned as the  
+*  title of the post.  Therefore, this hides the Add New Post 
+*  title LABEL which says "Enter title here" - it is not needed
+*
+************************************************************************/

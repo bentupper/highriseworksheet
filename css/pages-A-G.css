@@ -1,0 +1,283 @@
+/*=================================================================
+*                              PAGES A-G
+===================================================================*/
+
+                                                              /******** ADMIN Page ********/
+#panel-58-2-0-0 {
+  border: none;
+}
+
+.page-id-11986 div[id^="panel-"] {
+  max-width: none;
+}
+
+.page-id-11986 .su-post {
+  background-color: #eaeaea;
+    color: #000;
+    padding: 20px;
+}
+
+.page-id-11986 .su-post-comments-link {
+  display: none;
+}
+
+
+/* Sets width for the news box */
+.page-id-11986 .su-posts {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+                                                              /******* AIR MGMT Page  ********/
+#panel-11783-2-0-0 {
+  border: none;
+}
+                                                              /******* AIR MGMT REPORTS Page *******/
+.page-id-13702 {
+  background: none;
+    background-color: darkgray;
+    color: #000 !important;
+}
+
+                                                              /******* APPARATUS Page  ********/
+.page-id-11991 {
+  background: none;
+    background-color: darkgray;
+    color: #000;
+}
+
+/* Eliminates the "clicked" illusion */
+.page-id-11991 div[id^="panel-"]:active {
+  transform: none;
+}
+
+#panel-11991-0-0-0,
+#panel-11991-1-0-0 {
+  border: none;
+}
+
+/**********************************
+*    BLOG/NEWS/ARCHIVES Pages     *
+*       See blog.css file         *
+**********************************/
+
+                                                              /******* BLOOD DRAWS PAGE  ********/
+
+.page-id-13598 .wp-image-14458 {
+    /* Makes the image round */
+    border-radius: 100%;
+    /* Moves the image to the right side of screen */
+    float: right;
+}
+
+.page-id-13598 .ui-accordion-header {
+  font-size: 16px;
+}
+
+.page-id-13598 .ui-accordion-content {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  overflow: visible;
+  height: none;
+}
+
+.page-id-13598 .ui-state-default {
+  padding: 10px;
+}
+
+#post-13598 .inside-article {
+  padding-bottom: 0;
+}
+
+#blood-draws-accordion {
+    width: 90%;
+    max-width: 750px;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 14px !important;
+    height: 100% !important;
+}
+
+#blood-draws-accordion .ui-state-default {
+    background: none;
+    background-color: #ce4050 !important;
+    color: #fff !important;
+}
+
+                                                              /******* CHANGELOG PAGE  ********/
+.changelog-content {
+  background: none !important;
+    background-color: #eaeaea !important;
+    color: #000 !important;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.changelog-red {
+  font-size: 10px !important;
+    color: #cc0000;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+                                                                  /******* CHIEF'S PAGE  ********/
+.page-id-14881 .featured-image {
+	max-width: 200px;
+}
+
+                                                                  /******* DEATH NOTICES Page  ********/
+#death-notices-table tr td:first-child {
+    text-align: right !important;
+    width: 120px;
+}
+
+#death-notices-container {
+    min-height: 250px;
+    background-color: darkgray;
+    color: #000;
+}
+
+.page-id-13262 {
+  background: none;
+    background-color: darkgray;
+    color: #000;
+}
+
+.wp-image-13380 {
+  border-radius: 100%;
+}
+
+#death-notices-accordion {
+  width: 75%; 
+    margin: auto;
+}
+
+                                                                /******* EDO PAGE *******/
+.page-id-12754 {
+    background: none;
+  background-color: darkgray;
+    color: #000;
+}
+
+                                                                /******* EMS Page  ********/
+.wp-image-12742 {
+    border-radius: none !important;
+}
+
+/* Removes the borders around the go back link */
+#panel-63-5-0-0> .panel-widget-style {
+  border: none !important;
+}
+
+/* Removes the Min Height of the Go Back link */
+#panel-63-5-0-0 {
+  min-height: 0 !important;
+}
+
+/* Styling for the EMS News */
+.page-id-63 div[id^="panel-"] {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Adds a gray background to the news boxes */
+.page-id-63 .su-post {
+  background-color: #eaeaea;
+  color: #000;
+  padding: 20px;
+}
+
+.page-id-63 .su-post-comments-link {
+  display: none;
+}
+
+.page-id-12754 .entry-title {
+  color: #000;
+}
+
+                                                              /******* EXECUTIVE Page  ********/
+/* Centers Go Back Link */
+#panel-14853-1-0-0 {
+  margin: auto;
+}
+
+                                                              /******* EXECUTIVE OFFICER Page  ********/
+.page-id-21380 .su-column-inner a,
+.page-id-21382 .su-column-inner a,
+.page-id-21385 .su-column-inner a {
+  color: #fff;
+}
+
+.page-id-21380 .su-column-inner,
+.page-id-21382 .su-column-inner,
+.page-id-21385 .su-column-inner {
+  line-height: 30px;
+}
+
+.page-id-21371 .su-button,  /* Exec Off Resource Main Page*/
+.page-id-21380 .su-button,
+.page-id-21382 .su-button,
+.page-id-21385 .su-button {
+  width: 280px !important;
+}
+
+.page-id-21371 div[id^="panel-"] {
+  min-height: 0;
+}
+
+.page-id-21380 .inside-article,
+.page-id-21385 .inside-article {
+  background-color: dimgray;
+  color: #fff;
+  padding: 40px 10px 10px 10px;
+}
+
+.page-id-21380 .su-spoiler-style-default > .su-spoiler-title,
+.page-id-21385 .su-spoiler-style-default > .su-spoiler-title {
+  padding-left: 20px;
+  background-color: #f96c0e;
+  text-shadow: .5px .5px .5px #000 !important;
+}
+
+.page-id-21380 .su-spoiler-style-default > .su-spoiler-content,
+.page-id-21385 .su-spoiler-style-default > .su-spoiler-content {
+  padding: 5px !important;
+}
+
+.page-id-21380 .su-spoiler-content ul,
+.page-id-21385 .su-spoiler-content ul {
+  margin-left: 10px;
+}
+
+
+.page-id-22378 .gfield_label {
+	text-shadow: .5px .5px 3px #000;
+}
+
+
+                                                             /******* FINANCE Page    ********/
+#panel-14834-1-0-0 {
+  border: none;
+}
+
+
+                                                             /******* FIREFIGHTER WELLNESS & SUPPORT Page    ********/
+#panel-21998-1-0-0 {
+	min-height: 0;
+}                                                             
+                                                             
+
+                                                             /******* FORMS Page  ********/
+.forms-list {
+  font-weight: bold;
+    font-size: 16px;
+}
+
+.page-id-11971 .inside-article {
+   background: none !important;
+    background-color: #eaeaea !important;
+    color: #000 !important;
+    line-height: 2.5;
+}

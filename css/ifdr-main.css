@@ -1,0 +1,422 @@
+/*
+          IFD Resources Main CSS
+*/
+
+
+/*============================================================================*
+*                                   BACKGROUND CSS                            *
+*                                  Go to Customizer                           *
+*=============================================================================*/
+
+
+
+
+/*============================================================================
+* 
+*                                         HTML ELEMENTS
+* SASS - Move all to Base
+*=============================================================================*/
+h1  {
+    font-family: 'Spectral SC', serif !important;
+    font-size: 24px;
+    font-weight: bold !important;
+    letter-spacing: 1.25px;
+    text-transform: uppercase !important;
+    text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #000;
+}
+
+h4 {
+  font-size: 18px !important;
+  text-align: center;
+}
+
+a:visited {
+  color: #1e73be;
+  color: inherit;
+}
+
+/* Colors the Horizontal Rule line */ 
+hr {
+  color: #fff !important;
+  background-color: #fff !important;
+}
+
+/* Sets Fonts */
+/* SASS - Move to Modules->Icons */
+.widget-title {  
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* SASS - Move to Modules->Text-related */
+.entry-content span {
+  font-size: inherit !important;
+}
+
+/*=======================================================================
+* 
+*                                            COLORS
+* SASS - Move to Modules
+*========================================================================*/
+.red {
+  color: red !important;
+  font-size: inherit !important;
+}
+
+.green {
+  /*color: #42f450;*/
+  color: #019e01 !important;
+  font-size: inherit !important;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.black {
+  color: #000 !important;
+}
+
+.orange {
+  color: #f96c0e !important;  
+} 
+
+.hyperlink-blue {
+  color: #1e73be !important;
+}
+
+/* Darker orange:   #db5604 */
+
+.section-color-midnightblue {
+  background-color: midnightblue !important;
+}
+
+.section-color-dimgrey {
+  background-color: dimgrey !important;
+}
+
+/*============================================================================
+* 
+*                                               LAYOUT (content)
+* SASS - Move to Layouts 
+*==============================================================================*/
+.float-right {
+  float: right;
+}
+
+/* Resets the content following floated objects */
+.clear_fix {
+  clear: both;
+}
+
+#post-8567 .entry-content {
+  text-align: center;
+}
+
+.su-spoiler-style-default > .su-spoiler-content {
+  padding: 0 !important;
+}
+
+/*============================================================================
+* 
+*                                     GENERATEPRESS THEME ELEMENTS
+*  SASS - Move to Layouts
+*==============================================================================*/
+/* Reduces the size of the IFD logo in header */
+.header-image {
+  width: 30%;
+}
+
+.entry-title {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.inside-article {
+  text-align: left !important;
+}
+
+.inside-article a {
+  font-weight: bold;
+}
+
+/* Back To Top button */
+.generate-back-to-top,
+.generate-back-to-top:visited {
+  background-color: rgba( 249, 108, 14, 0.4 ) !important;
+}
+
+.generate-back-to-top:hover {
+  background-color: #f96c0e !important;
+}
+
+/*============================================================================
+* 
+*                                    NAVIGATION & GO BACK LINKS
+* SASS - Move Navigation to Layouts, move Flag & Mobile Menus to Modules
+*==============================================================================*/
+
+/* Navigation Font */
+.menu-image-title {
+  font-family: 'open sans';
+  font-weight: normal;
+}
+
+/* Adjusts FLAG status image */
+.menu-item a img {
+  width: 50px !important;
+}
+
+/* Changes the font color of mobile menu items */
+.mobile-menu {
+  color: #fff !important;
+}
+
+/* Mobile Menu (Slideout Menu) */
+.slideout-menu {
+  text-align: left;
+}
+
+/*****************************
+*
+*           Go Back Link
+* SASS - Move to Modules->buttons
+******************************/
+.go-back-link {
+  display: block;
+  text-align: center;
+  background-color: #12027a;
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding: 5px 20px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px #fff solid;
+  max-width: 300px;
+  letter-spacing: 1px;
+}
+
+/*   Makes panel's width 100% allowing the 
+*    Go Back Link to be centered           */
+#panel-15759-1-0-0, /* Admin Run Car */
+#panel-14881-2-0-0, /* Chief */
+#panel-22020-2-0-0, /* Contacts & Lists */
+#panel-21982-4-0-0, /* Daily Checks & Resources */
+#panel-63-5-0-0,    /* EMS */
+#panel-14853-1-0-0, /* Executive */
+#panel-14834-1-0-0, /* Finance */
+#panel-79-2-0-0,    /* Fire Marshal */
+#panel-21998-1-0-0, /* FF Wellness & Support */
+#panel-75-5-0-0,    /* Health & Safety */
+#panel-11964-2-0-0, /* House Captain */
+#panel-74-2-0-0,    /* I.T. */
+#panel-20028-2-0-0, /* I.T. Tutorials*/
+#panel-18488-1-0-0, /* Mobile Command App */
+#panel-16670-3-0-0, /* Monthly Training */
+#panel-506-3-0-0,   /* Operations */
+#panel-62-2-0-0,    /* Pension */
+#panel-19844-1-0-0, /* Probie Review */
+#panel-78-3-0-0,    /* Quartermaster */
+#panel-22009-3-0-0, /* Report an Issue */
+#panel-90-3-0-0,    /* Training */
+#panel-8204-3-0-0,  /* Training for Company Inspections*/
+#panel-13043-1-0-0, /* Pub Ed */
+#panel-13045-2-0-0, /* Recruitment */
+#panel-13737-2-0-0, /* Safety Officer */
+#panel-15328-1-0-0, /* Social Media */
+#panel-16074-2-0-0, /* Social Services */
+#panel-91-1-0-0 {   /* Special Ops */
+  max-width: none !important;
+  margin: auto !important;
+}
+
+
+/*============================================================================
+* 
+*                                             TEXT-RELATED SETTINGS
+* SASS - Move all to Modules->Text-related
+*==============================================================================*/
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+/*============================================================================
+* 
+*                                             CONTENT-RELATED SETTINGS
+* SASS - Move to Modules->content-related
+*==============================================================================*/
+.display-block {
+  display: block;
+}
+/* SASS - Move to Modules->Mobile-related */
+.hide-on-mobile {
+  visibility: hidden;
+} 
+/* SASS - Move to Modules->Mobile-related */
+.show-on-mobile-only {
+  visibility: visible;
+}
+/* SASS - Move to Modules->Content-related */
+.remove-min-height {
+    min-height:0 !important;
+}
+
+/* SASS - Move to Modules->Content-related */
+/* Hide up/down arrows ("spinners") on input fields marked type="number" */
+/* Spinners are up/down arrows on an input[type="numbers"] element */
+.no-spinners {
+  -moz-appearance:textfield;
+}
+
+/* SASS - Move to Modules->Content-related */
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* SASS - Move to Modules->Content-related */
+/* Removes Bullet points in unordered lists */
+.show-bullets li {
+  list-style: disc !important;
+}
+
+/* SASS - Move to Modules->Content-related */
+.no-bullets {
+  list-style: none;
+}
+
+/* SASS - Move to Modules->Content-related */
+.no-border {
+  border: none !important;
+}
+
+/* SASS - Move to Modules->Content-related */
+/* Changes the font color in the tables */
+.tablepress {
+  color: #000;
+}
+
+
+/*==================================================================================
+* 
+*                                                     ICONS (Buttons)
+* 
+*===================================================================================*/
+
+/* Makes the icons round */  
+/* SASS - Move to Modules */
+.image { 
+  border-radius: 100% !important;
+}
+
+/* Centers the icons on the screen */ 
+/* SASS - Move to Modules->content-related*/
+.panel-no-style {
+  align-items: center !important;
+}
+
+/* SASS - Move to Modules->Content-related */
+.so-panel {
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* SASS - Move to Modules->Icons */
+/* Center page icons on the page */
+.center-page-icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* SASS - Move to Modules->Icons */
+/* Lays out the icons on each  */
+.center-page-icons a {
+    float: left;
+    padding: 10px;
+    min-width: 180px;
+}
+
+/* SASS - Move to Modules->Content-related */
+/* Puts some spacing between page icons that are lined up vertically */
+.center-page-icons a img {
+    margin-bottom: 50px;
+}
+
+/* SASS - Move to Modules->Icons */
+/* Styles each icon/button */
+div[id^="panel-"] {
+    box-shadow: 2px outset #b37d00;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: auto !important;
+    padding-bottom: 40px !important;
+}
+
+/* Icon Titles  */
+/* SASS - Move to Modules->Icons */
+div[id^="panel-"] .widget-title {
+    color: #f96c0e;
+    font-size: 16px !important;
+    font-weight: bold;
+    padding: 0 5px;
+    text-align: center;
+    text-shadow: -.5px 0 #000, 0 .5px #000,
+      .5px 0 #000, 0 -.5px #000;
+}
+
+/* Makes the "buttons" look like they've been pressed on click */
+/* SASS - Move to Modules->Content-related */
+div[id^="panel-"]:active {
+    transform: translate(4px, 4px);
+}
+
+/*============================================================================
+* 
+*                                             COMMENTS
+* SASS - Move to Modules->Comments
+*==============================================================================*/
+.comments-title,
+.comment-reply-title {
+  color: #fff;
+}

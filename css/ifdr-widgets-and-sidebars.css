@@ -1,0 +1,176 @@
+/*==================================================================================
+*  
+*                           ALL WIDGETS
+*
+*===================================================================================*/
+/* Centers text, Adds opaque white background, and rounds the corners- */
+.widget {
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Aligns links to blog posts left and adjusts spacing */
+.widget ul li {
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+/* Styles the Sidebar boxes */
+.inside-left-sidebar aside,
+.inside-right-sidebar aside {
+  width: 95%;
+    max-width: 400px !important;
+    margin: 10px auto !important;
+}
+
+/* Adds space to the bottom of the last widget */
+aside:last-child {
+  margin-bottom: 50px !important;
+}
+
+/**************************************************************************** 
+*
+*                            LEFT SIDEBAR 
+*
+*****************************************************************************/
+/* Left Sidebar Widget Titles */
+.inside-left-sidebar .widget-title {
+  background-color: #cc0000;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+
+.left a {
+  display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.inline-block {
+    margin-top: -80px;
+    margin-left: 180px;
+}
+
+/* Health & Safety - Minutes area - Hides thumbnail image box in sidebar  */
+.page-id-75 .rpwe-thumb {
+  display: none !important;
+}
+
+/* Health & Safety - Minutes area - Makes font size bigger and underlines links  */
+.page-id-75 .rpwe-title a {
+  font-size: 14px !important;
+    text-decoration: underline !important;
+}
+
+/* Health & Safety - Links area - Makes font size match the Minutes size and underlines links   */
+.page-id-75 .custom-html-widget a {
+  font-size: 14px !important;
+    text-decoration: underline;
+}
+
+/* Health & Safety - Links area - aligns the links to the left   */
+.hs-link {
+  text-align: left !important;
+}
+
+/* Health & Safety - Left sidebar widget area - Puts space between the Minutes widget and the Links widget   */
+.page-id-75 #rpwe_widget-2 {  /* (the Minutes widget) */
+  margin-bottom: 60px;
+}
+
+/* Rounds corners of Search input box */
+.search-field {
+  border-radius: 15px !important;
+}
+
+
+/******************************************************************************* 
+*   
+*                             RIGHT SIDEBAR 
+*
+*********************************************************************************/
+
+/* Right Sidebar Widget Titles */
+.inside-right-sidebar .widget-title {
+  background-color: #cc0000;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+
+/* IFD News - Font size */
+.rpwwt-post-title {
+  font-size: 13.5px !important;
+}
+
+/* IFD News - Styles posted date */
+.rpwwt-post-date {
+    font-size: 12px !important;
+    display: block;
+    padding-bottom: 20px; 
+}
+
+.rpwwt-widget ul li {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+}
+
+/* IFD News - Styles posted date */
+/*span.post-date {
+    font-size: 12px;
+    display: block;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 20px; 
+}*/
+
+/* IFD News - removes margin for the View All News widget */
+#recent-posts-widget-with-thumbnails-2 {
+  margin-bottom: 0px !important;
+}
+
+/* IFD News - Moves content upwards for spacing adjustment */
+.news-remove-top-margin {
+    font-size: 15px;
+}
+
+/*  Upcoming Events align widget links to the left */
+ol.tribe-list-widget {
+    text-align: left;
+}
+
+/* Upcoming Events - Aligns text left */
+.single-tribe_events .tribe-events-content {
+  text-align: left !important;
+}
+
+/* Upcoming Events - Titles- adjusts font sizes */
+.inside-right-sidebar a,
+.tribe-event-title {
+  font-size: 15px !important;
+    font-weight: bold;
+}
+
+/* Upcoming Events - Dates & Times - adjusts font sizes */
+.post-date,
+.tribe-event-duration span {
+  font-size: 13px !important;
+}
+
+/* Facebook & Instagram Icons */
+#custom_html-14 {
+  background: none;
+}
+
+/* Tod Parker - PhotoTac Credit */
+.tod-parker {
+	font-size: 12px;
+	font-weight: bold;
+	color: #eaeaea;
+	text-shadow: .5px .5px .5px #000;
+}

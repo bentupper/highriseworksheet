@@ -1,0 +1,600 @@
+
+/*==================================================================================
+*                                MOBILE COMMAND APP
+===================================================================================*/
+
+/********************************************************************************************************************************* 
+	CSS BEST PRACTICES
+		1. Box   		(display, width, height, padding, margin, box-shadow, float, position, left, top) 
+		2. Border   	(border, border-radius)
+		3. Background   
+		4. Text  		(font-size, font-weight, font-family, text-shadow, letter-spacing, text-transform) 
+		5. Other	
+		---------------------------------------------------------------------------------------------------------
+	SMACSS CATEGORIES	
+		1. Base Rules			(Define default styles. Applied to HTML elements, NOT CLASSES-ONLY OR IDs-ONLY)
+		2. Layout Rules     	(Divides page into major components: header, main, footer, sidebar, grid, etc.)
+		3. Module Rules     	(Exists to be stand-alone.  Only use Class names. Avoid IDs and HTML elements.)
+		3a. Subclassing Modules (If module needs modified for an situation, subclass it. Ex: '.mod' becomes '.mod-footer')
+		4. State Rules      	(Define how modules look when in a particular state like :hover, :active.  Can be used with JS)
+		5. Theme Rules          (Define color scheme and typography. Theme-specific styles)
+***********************************************************************************************************************************/
+
+/*
+	page 18488 = Main 
+	page 18519 = Old Fire
+	page 23801 = New Fire 
+	page 18597 = Spec Ops
+	page 18622 = Major Incidents
+*/
+/*
+		COLORS
+		Orange = #f96c0e
+*/
+
+/**********************************
+
+*  		BASE HTML RULES
+
+***********************************/
+
+
+/**********************************
+
+*  		LAYOUT RULES
+
+***********************************/
+
+	/* HIDE FOOTER in App pages */ 
+		.page-id-18488 .site-footer,
+		.page-id-23801 .site-footer {
+			display: none;
+		}
+
+	/*** MAIN PAGE ***/
+		.page-id-18488 #comments {
+		  	background: #000;
+		  	color: #fff;
+		  	padding: 40px;
+		}
+
+	/*** FIRE GUIDE ***/
+		/* Hide Native Navigation Next & Previous Buttons */
+		.gform_next_button,
+		.gform_previous_button {
+			display: none !important;
+		}
+
+		/* Hide Multi-page form navigation buttons */
+		#gf_page_steps_33 {
+			visibility: hidden;
+			height: 30px;
+		}
+
+		/* Styles for My Navigation Buttons */
+		.rm_navigation_buttons {
+			width: 100%;
+			display: -webkit-inline-flex;
+			-webkit-flex-flow: row;
+			-webkit-justify-content: space-between;
+		}
+
+		.rm_navigation_buttons input {
+			width: 140px;
+			padding: 10px !important;
+			font-size: 20px;
+		}
+
+		.mayday_benchmarks {
+		  	background-color: #eaeaea !important;
+		  	color: #000 !important;
+		  	padding: 10px;
+		}
+
+		.rit_benchmark {
+		  	font-weight: bold;
+		}
+
+		.command-wider-input {
+		  	min-width: 90px !important;
+		}
+
+		.page-id-18488 .featured-image,
+		.page-id-23801 .featured-image,
+		.page-id-18597 .featured-image,
+		.page-id-18622 .featured-image {
+		  	width: 60px;
+		  	display: inline-block;
+		  	padding-left: 10px;
+		}
+
+		.page-id-23801 .gform_wrapper .gform_page_footer {
+			text-align: center;
+		}
+
+		.page-id-23801 .rm-page-title {
+			background: none !important;
+			border: none !important;
+			text-transform: uppercase;
+		}
+
+		/* Staging Mgr */
+		#input_17_125 {
+			float: left;
+			margin-top: -40px;
+			margin-left: 100px;
+		}
+
+		.page-id-18597 .su-spoiler,
+		.page-id-18622 .su-spoiler {
+			margin-bottom: 0;
+		}
+
+		.page-id-18597 .su-spoiler-style-default > .su-spoiler-content,
+		.page-id-18622 .su-spoiler-style-default > .su-spoiler-content {
+		  	padding: 0;
+		}
+
+		.page-id-18597 .su-spoiler-title,
+		.page-id-18622 .su-spoiler-title {
+		  	font-size: 16px;
+			background-color: #f96c0e;
+			background-color: #fff;
+			color: #000;
+		}
+
+/**********************************
+
+*  		MODULE RULES
+
+***********************************/
+	
+
+/**********************************
+
+*  		STATE RULES
+
+***********************************/
+
+
+/**********************************
+
+*  		THEME RULES
+
+***********************************/
+
+	/*** INSIDE ARTICLE ***/
+		.page-id-23801 .inside-article,
+		.page-id-18597 .inside-article,
+		.page-id-18622 .inside-article {
+			padding: 10px !important;
+		}
+
+	/*** ENTRY TITLE ***/
+		.page-id-18488 .entry-title,
+		.page-id-23801 .entry-title,
+		.page-id-18597 .entry-title,
+		.page-id-18622 .entry-title {
+			font-size: 18px;
+			margin-top: -80px;
+			padding-left: 60px;
+		}
+
+		.page-id-18488 .entry-title-line-2,
+		.page-id-23801 .entry-title-line-2,
+		.page-id-18597 .entry-title-line-2,
+		.page-id-18622 .entry-title-line-2 {
+			display: block;
+			font-size: 20px;
+			margin: 10px auto 30px auto;
+		}
+
+	/* Fire Guide - Remove Background */
+		.page-id-18488,
+		.page-id-23801 {
+			background: #000;
+			/*background-color: #000;*/
+		}
+
+	/* BUTTON COLOR */
+		.page-id-23801 input[type="button"] {
+			border-radius: 10px;
+			background-color: #f96c0e;
+		}
+
+		.page-id-23801 .gfield_label {
+			float: left;
+			width: 270px;
+			padding-right: 10px;
+			font-size: 24px !important;
+		}
+
+		.page-id-23801 label[for='input_33_1'],
+		.page-id-23801 label[for='input_33_2'],
+		.page-id-23801 label[for='input_33_3'],
+		.page-id-23801 label[for='input_33_4'],
+		.page-id-23801 label[for='input_33_5'],
+		.page-id-23801 label[for='input_33_6'],
+		.page-id-23801 label[for='input_33_7'],
+		.page-id-23801 label[for='input_33_8'],
+		.page-id-23801 label[for='input_33_9'],
+		.page-id-23801 label[for='input_33_10'],
+		.page-id-23801 label[for='input_33_11'],
+		.page-id-23801 label[for='input_33_12'],
+		.page-id-23801 label[for='input_33_13'],
+		.page-id-23801 label[for='input_33_14'],
+		.page-id-23801 label[for='input_33_15'],
+		.page-id-23801 label[for='input_33_16'],
+		.page-id-23801 label[for='input_33_17'],
+		.page-id-23801 label[for='input_33_18'],
+		.page-id-23801 label[for='input_33_19'],
+		.page-id-23801 label[for='input_33_20'],
+		.page-id-23801 label[for='input_33_21'] {
+			width: 180px !important;
+			margin-bottom: 30px;
+		}
+
+		.page-id-23801 .gfield_description {
+			float: left;
+			width: auto !important;
+			padding: 0 !important;
+			margin-top: -45px !important;
+			margin-bottom: 20px;
+			font-size: 22px !important;
+		}
+
+		/* Fire Guide - Hides the Checkbox Labels */
+		.page-id-23801 .gfield_checkbox label {
+			display: none !important;
+		}
+
+		/* Fire Guide - Removes Spinner in Number boxes*/
+		.page-id-23801 input[type="number"]::-webkit-inner-spin-button {
+			display: none;
+		}
+
+		.page-id-23801 input[type="number"] {
+			float: left;
+			width: 50px !important;
+			height: 50px !important;
+			margin-left: 60px;
+			margin-bottom: 20px;
+			text-align: center;
+			font-size: 22px !important;
+			font-weight: bolder;
+			color: #000;
+		}
+
+		/* fields_33_2 = Benchmarks, fields_33_3 = Agencies */
+		#gform_fields_33_2 input[type="checkbox"],
+		#gform_fields_33_3 input[type="checkbox"] {
+			width: 50px !important;
+			height: 50px;
+		}
+
+		.fire-guide-save-link {
+			background-color: #f96c0e !important;
+			padding: 10px;
+			width: 140px;
+			margin: auto;
+			border-radius: 10px;
+		}
+
+		.fire-guide-save-link a {
+			color: #fff;
+		}
+
+		/* Fire Guide - Hides the GF native Saved Msg page */
+		.page-id-23801 .gform_wrapper .form_saved_message {
+			display: none !important;
+		}
+
+		/* Fire Guide - Styles text "Saving...."  */
+		.saving-fire-guide {
+			margin-top: 120px;
+			font-size: 30px;
+			font-weight: bolder;
+			text-align: center;
+		}
+
+		/* Fire Guide - One-off; adds padding below Pre-Determined Assignments line */
+		#field_33_26 {
+			margin-bottom: 50px;
+		}
+
+		/* Fire Guide - One-off; adds padding below Pre-Determined Assignments line */
+		#choice_33_26_1 {
+			margin-top: 20px;
+		}
+
+		/* Fire Guide - Centers the save button on the "Agencies" page */
+		.page-id-23801 .gform_page_footer.left_label {
+			padding: 30px 0 !important;
+		}
+
+		/* Fire Guide - Hides the Submit button (not working anyway) */
+		#gform_submit_button_33 {
+			display: none !important;
+		}
+
+		/* Fire Guide - Underlines the Secondary Size-Up Benchmark label so that it's obvious it's a hyperlink */
+		#field_33_30 label {
+			text-decoration: underline;
+		}
+
+		/* Fire Guide - Removes the Save button on the Secondary Size-Up page */
+		#gform_page_33_4 .fire-guide-save-link {
+			display: none;
+		}
+
+		/* Fire Guide - Removes Scroll to Top Button (gets in way of form elements) */
+		.page-id-23801 .generate-back-to-top {
+			display: none !important;
+		}
+
+		/* Fire Guide - Secondary Sizeup */
+		#gform_fields_33_4 h1 {
+			margin-top: 60px;
+			margin-bottom: 5px;
+			font-size: 24px;
+			text-align: left;
+		}
+
+		/* Fire Guide - Secondary Sizeup - Company Assignments */
+		#gform_fields_33_4 li p {
+			font-size: 20px !important;
+			margin-bottom: 0;
+		}
+
+		/* Fire Guide - Secondary Sizeup - Company Assignments */
+		#field_33_77 label,
+		#field_33_78 label,
+		#field_33_79 label,
+		#field_33_80 label,
+		#field_33_81 label,
+		#field_33_82 label,
+		#field_33_83 label {
+			font-size: 20px !important;
+		}
+
+		/* Fire Guide - Secondary Sizeup - Company Assignments */
+		#field_33_77 label,
+		#field_33_78 label,
+		#field_33_79 label,
+		#field_33_80 label,
+		#field_33_81 label,
+		#field_33_82 label,
+		#field_33_83 label {
+			font-size: 20px !important;
+			font-weight: normal;
+			width: auto;
+		}
+
+		#gform_fields_33_4 li input:not([type="button"]) {
+			width: 55px !important;
+			padding: 0;
+			margin: -11px 0 0 -15px;
+			height: 0 !important;
+			border: none;
+			background: none;
+			color: #fff !important;
+			font-size: 20px;
+			font-weight: normal;
+		}
+
+		#field_33_82 label {
+			padding-bottom: 30px;
+		}
+
+
+/**********************************
+
+*        MEDIA QUERIES
+
+***********************************/
+
+/*-----------------------------
+*		  Kindle Fire
+-------------------------------*/
+
+		/*** Fire Guide ***/
+		@media only screen and (min-device-width: 600px) and (max-device-width: 767px) {
+
+			/* Fire Guide -  */
+			.page-id-18488 .featured-image,
+			.page-id-23801 .featured-image {
+			  	width: 100px;
+			}
+
+			/* Fire Guide -  */
+			.page-id-18488 .entry-title,
+			.page-id-23801 .entry-title {
+					margin-top: -110px;
+					font-size: 42px;
+			}
+
+			/* Fire Guide -  */
+			.rm_navigation_buttons input,
+			.fire-guide-save-link {
+				width: 220px;
+				padding: 10px !important;
+				font-size: 32px;
+			}
+
+			/* Fire Guide -  */
+			.page-id-23801 .gfield_label {
+				width: 270px;
+				padding-right: 10px;
+				font-size: 32px !important;
+			}
+
+			/* Fire Guide -  */
+			.page-id-23801 .gfield_description {
+				font-size: 32px !important;
+			}
+
+			/* Fire Guide -  */
+			.page-id-23801 input[type="number"] {
+				width: 100px !important;
+				height: 80px !important;
+				margin: 18px 0 0 80px;
+				font-size: 42px !important;
+			}
+
+			/* Fire Guide - Benchmark List Items &  */
+			.page-id-23801 .gfield_label {
+				width: 450px; 
+			}
+
+			/* Fire Guide - Secondary Sizeup Page */
+			#gform_fields_33_4 h1 {
+				font-size: 40px;
+			}
+
+			/* Fire Guide - Secondary Sizeup - Company Assignments */
+			#gform_fields_33_4 li p {
+				font-size: 32px !important;
+			}
+
+			/* Fire Guide - Secondary Sizeup - Company Assignments */
+			#field_33_77 label,
+			#field_33_78 label,
+			#field_33_79 label,
+			#field_33_80 label,
+			#field_33_81 label,
+			#field_33_82 label,
+			#field_33_83 label {
+				font-size: 32px !important;
+			}
+
+			/* Fire Guide - Secondary Sizeup Assignment Number Inputs */
+			#gform_fields_33_4 li input:not([type="button"]) {
+				width: 75px !important;
+				margin: 8px 0 0 -14px;
+				font-size: 32px !important;
+			}
+
+			/* Fire Guide - Secondary Sizup Title */
+			#field_33_57 h2 {
+				font-size: 32px !important;
+			}
+
+			/* Fire Guide -  */
+			#field_33_82 label {
+				padding-bottom: 60px;
+			}	
+
+			/* Fire Guide -  */
+			.command-go-back-button {
+				margin-top: 80px;
+				font-size: 28px;
+				width: auto;
+			}
+
+			/* Fire Guide -  */
+			.page-id-23801 .go-back-link {
+				max-width: none;
+			}
+
+
+			/**********************
+			*	Main Command Page
+			***********************/
+			.page-id-18488 .entry-header,
+			.page-id-23801 .entry-header {
+				margin-bottom: 80px;
+			}
+
+			.page-id-18488 h3.widget-title {
+				font-size: 32px !important;
+				margin-bottom: 0;
+			}
+
+		} /* End Kindle Media Query*/
+
+
+/*-----------------------------
+*		  iPad
+-------------------------------*/
+
+		/*** Fire Guide ***/
+		@media ( min-width: 768px )   {
+
+			.page-id-23801 .gfield_description {
+				margin-left: 0px !important;
+			}
+
+			/* Fire Guide - Center Navigation Buttons */
+			.page-id-23801 .gform_wrapper form ul.gform_fields:not(.top_label) li.gfield_html_formatted {
+				margin-left: 16% !important;
+				margin-bottom: 60px;
+			}
+
+			.page-id-23801 .gform_wrapper form ul.gform_fields:not(.top_label) .gfield_label {
+				margin-bottom: 0;
+			}
+
+			/* Fire Guide - Benchmark List Items &  */
+			.page-id-23801 .gfield_label {
+				width: 600px !important; 
+			}
+
+			.page-id-23801 .gform_wrapper ul.gform_fields:not(.top_label) li ul.gfield_checkbox {
+				width: auto !important;
+			}
+
+			#field_33_26,
+			#choice_33_26_1 {
+				margin: 0;
+			}
+
+			.rm_navigation_buttons {
+				-webkit-justify-content: space-around !important;
+			}
+
+			#field_33_77,
+			#field_33_78,
+			#field_33_79,
+			#field_33_80,
+			#field_33_81,
+			#field_33_82,
+			#field_33_83 {
+				font-size: 32 !important;
+				margin-left: 16% !important;
+			}
+
+			/* Fire Guide - Secondary Sizeup Assignment Number Inputs */
+			/*#gform_fields_33_4 li input:not([type="button"]) {
+				width: 75px !important;
+				margin: 11px 0 0 -14px;
+				font-size: 32px !important;
+			}*/
+
+
+		}
+
+
+
+
+
+
+
+/**********************************
+
+*  		SPECIAL OPS
+
+***********************************/
+
+	.special-ops-spoiler-icon {
+		width: 30px;
+		padding-right: 5px;
+		float: left;
+		margin-top: -5px;
+	}
+
+/**********************************
+
+*  		MAJOR INCIDENTS
+
+***********************************/
+

@@ -1,0 +1,33 @@
+/*==================================================================================
+*
+*                                    SIIT REPORTS PAGE
+*
+*===================================================================================*/ 
+.page-id-13741 table {
+	background: none !important;
+	background-color: #eaeaea !important;
+	color: #000 !important;
+}
+
+#siit-reports-table {
+	width: 95%;
+	max-width: 700px;
+	margin: auto;
+}
+
+#siit-reports-table th, #siit-reports-table td {
+	border-bottom: 1px #000 solid !important;
+	padding: 15px !important;
+}
+
+/* Makes the table responsive */
+#siit-report-container {
+	overflow-x: auto;
+}
+
+.siit-instructions {
+	color: #fff !important;
+	font-size: 12px;
+	text-align: center;
+}
+

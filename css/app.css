@@ -1,0 +1,1354 @@
+/* VARIABLES */
+/********************************* */
+/*     BASE STYLES                */
+/********************************* */
+/* */
+h1 { font-family: "Spectral SC", serif !important; font-size: 24px !important; font-weight: bold !important; letter-spacing: 1.25px; text-transform: uppercase !important; text-align: center; }
+
+h2 { font-size: 20px; text-align: center; margin-bottom: 20px; }
+
+h3 { font-size: 18px; text-align: center; color: #000; }
+
+h4 { font-size: 16px; text-align: center; }
+
+a:visited { color: #1e73be; color: inherit; }
+
+button { border-radius: 25px; }
+
+/* Colors the Horizontal Rule line */
+hr { color: #fff !important; background-color: #fff !important; }
+
+/* Social Media buttons on Home page under Twitter Feed */
+/********************************* */
+/*     LAYOUT STYLES              */
+/********************************* */
+/*== CONTENT-RELATED STYLES == */
+.float-right { float: right; }
+
+/* Resets the content following floated objects */
+.clear_fix { clear: both; }
+
+#post-8567 .entry-content { text-align: center; }
+
+.su-spoiler-style-default > .su-spoiler-content { padding: 0 !important; }
+
+/*== FOOTER == */
+.sitemap-widget a { display: block; text-decoration: none !important; text-align: left !important; }
+
+.sitemap-widget .widget-title { text-align: left !important; margin-bottom: 10px; }
+
+.sitemap-heading { margin-top: 30px; margin-bottom: 10px; color: #f96c0e; text-align: left; font-size: 16px !important; font-weight: bold; text-transform: uppercase; padding: 0 5px; text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000; }
+
+.footer-widget-1 .panel-no-style { align-items: stretch !important; }
+
+/* Reduces the Top Margin in Sitemap area */
+.footer-widgets aside:first-child { margin-top: 0px !important; }
+
+.footer-widgets a { font-size: 13px; line-height: 35px; margin-left: 7px !important; }
+
+/* Adds spacing between the Media Logos */
+/* Disables the "click" animation */
+.footer-widget-1 div[id^="panel-"]:active { transform: none; }
+
+.sitemap-social-media-logo { width: 30px; }
+
+.sitemap-social-media-container { text-align: left; margin: 0px; }
+
+.sitemap-social-media-container a { display: inline-block; }
+
+.version { padding-right: 30px; float: right !important; font-size: 11px; color: #808080 !important; }
+
+.copyright-bar { float: none !important; font-size: 10px; }
+
+.terms-policy { float: left; font-size: 11px; color: #808080 !important; }
+
+.terms-policy a { color: #808080 !important; }
+
+/*== HEADER == */
+/* Reduces the size of the IFD logo in header */
+.header-image { width: 30%; }
+
+/*== MAIN CONTENT == */
+.entry-content span { font-size: inherit !important; }
+
+.float-right { float: right; }
+
+/* Resets the content following floated objects */
+.clear_fix { clear: both; }
+
+#post-8567 .entry-content { text-align: center; }
+
+.su-spoiler-style-default > .su-spoiler-content { padding: 0 !important; }
+
+/*== NAVIGATION == */
+.menu-image-title { font-family: "open sans"; font-weight: normal; }
+
+/* Adjusts FLAG status image */
+.menu-item a img { width: 50px !important; }
+
+.mobile-menu { color: #ffffff !important; }
+
+/* Mobile Menu (Slideout Menu) */
+.slideout-menu { text-align: left; }
+
+/*== LEFT SIDEBAR ==/ */
+.inside-left-sidebar .widget-title { margin-bottom: 20px !important; border-radius: 15px; background-color: #cc0000; color: #fff !important; font-size: 20px !important; font-weight: bolder; }
+
+.inside-left-sidebar aside { width: 95%; max-width: 400px !important; margin: 10px auto !important; }
+
+.left a { display: block; margin-bottom: 20px; font-size: 16px; text-decoration: underline; }
+
+.search-field { border-radius: 15px !important; }
+
+/*== RIGHT SIDEBAR == */
+.inside-right-sidebar aside { width: 95%; max-width: 400px !important; margin: 10px auto !important; }
+
+/* Health & Safety - Minutes area - Hides thumbnail image box in sidebar */
+.page-id-75 .rpwe-thumb { display: none !important; }
+
+/* Health & Safety - Minutes area - Makes font size bigger and underlines links */
+.page-id-75 .rpwe-title a { font-size: 14px !important; text-decoration: underline !important; }
+
+/* Health & Safety - Links area - Makes font size match the Minutes size and underlines links */
+.page-id-75 .custom-html-widget a { font-size: 14px !important; text-decoration: underline; }
+
+/* Health & Safety - Links area - aligns the links to the left */
+.hs-link { text-align: left !important; }
+
+/* Health & Safety - Left sidebar widget area - Puts space between the Minutes widget and the Links widget */
+.page-id-75 #rpwe_widget-2 { margin-bottom: 60px; }
+
+/* IFD News - Font size */
+.rpwwt-post-title { font-size: 13.5px !important; }
+
+/* IFD News - Styles posted date */
+.rpwwt-post-date { font-size: 12px !important; display: block; padding-bottom: 20px; }
+
+/* IFD News - */
+.rpwwt-widget ul li { border-bottom: 1px dashed #ccc; padding-bottom: 10px; }
+
+/* IFD News - removes margin for the View All News widget */
+#recent-posts-widget-with-thumbnails-2 { margin-bottom: 0px !important; }
+
+/* IFD News - Moves content upwards for spacing adjustment */
+.news-remove-top-margin { font-size: 15px; }
+
+/* Facebook & Instagram Icons */
+#custom_html-14 { background: none; }
+
+/*== ALL SIDEBARS == */
+/* Centers text, Adds opaque white background, and rounds the corners- */
+.widget { text-align: center; border-radius: 20px; }
+
+/* Aligns links to blog posts left and adjusts spacing */
+.widget ul li { text-align: left; font-size: 16px; padding-bottom: 0; margin-bottom: 20px; }
+
+/* Adds space to the bottom of the last widget */
+.inside-left-sidebar .widget-title, .inside-right-sidebar .widget-title { margin-bottom: 20px !important; border-radius: 15px; background-color: #cc0000; color: #fff !important; font-size: 20px !important; font-weight: bolder; }
+
+/* Aligns text for sidebar links  */
+.rpwe-title { text-align: left; }
+
+/*== TEXT-RELATED STYLES == */
+.left { text-align: left; }
+
+.right { text-align: right; }
+
+.center { text-align: center; }
+
+.bold { font-weight: bold; }
+
+.hide { display: none; }
+
+.hidden { visibility: hidden; }
+
+.underline { text-decoration: underline !important; }
+
+.no-underline { text-decoration: none !important; }
+
+/********************************* */
+/*     MODULES                    */
+/********************************* */
+/************************************* */
+/*      BACK TO TOP BUTTON */
+/************************************* */
+/* Back To Top button */
+.generate-back-to-top, .generate-back-to-top:visited { background-color: rgba(249, 108, 14, 0.4) !important; }
+
+.generate-back-to-top:hover { background-color: #f96c0e !important; }
+
+/************************************* */
+/*      BLOG & POSTS */
+/************************************* */
+.featured-image { max-width: 200px; margin: auto; }
+
+.blog .post-image, .archive .post-image { max-width: 200px; margin: 1em auto; }
+
+.blog, .archive, .search { background: none !important; background-color: #eaeaea !important; color: #000; }
+
+.blog .page-title, .archive .page-title, .search .page-title { color: #000; }
+
+.su-post-meta { color: #000; font-weight: bold; }
+
+.blog .inside-article, .archive .inside-article, .search .inside-article { color: #000; padding: 30px; margin-bottom: 20px; padding: 40px 5px !important; }
+
+.blog .inside-article a, .archive .inside-article a, .search .inside-article a { font-size: 20px; font-weight: bold; }
+
+.blog .entry-meta, .archive .entry-meta, .search .entry-meta { display: block; }
+
+.blog .entry-title, .archive .entry-title, .search .entry-title { margin-bottom: 0px; }
+
+.blog .posted-on a, .archive .posted-on a, .search .posted-on a { font-size: 16px; color: #000; }
+
+.blog .entry-summary, .archive .entry-summary, .search .entry-summary { margin: 10px 0px 0px 0px; color: #000; }
+
+.archive .page-title { color: #000 !important; }
+
+.post h2 { font-size: 22px; padding-left: 0px; }
+
+/* Hides the Posted By and Category information */
+.byline, .cat-links { display: none; }
+
+/* Makes the current page number black */
+.current { color: #000; }
+
+.blog .entry-title { font-size: 20px; font-weight: bold; }
+
+.post-template-default .separate-containers .inside-article, .single .inside-article { background-color: #eaeaea; color: #000000 !important; font-size: 18px; line-height: 26px; }
+
+.post .entry-title { font-size: 26px; font-weight: bold; }
+
+.blog p { color: #000 !important; font-size: 16px; padding: 5px 0; }
+
+/* Posts - Hides Author Information on Posts */
+.entry-meta { display: none; }
+
+.hide-comment { display: none !important; }
+
+.su-posts { max-width: 600px; margin: auto; }
+
+.su-post-excerpt { text-align: left; }
+
+.sue_icon_text { display: inline-block !important; }
+
+/************************************* */
+/*      COLORS */
+/************************************* */
+.red { color: red !important; font-size: inherit !important; }
+
+.green { color: #019e01 !important; font-size: inherit !important; }
+
+.white { color: #fff !important; }
+
+.black { color: #000 !important; }
+
+.orange { color: #f96c0e !important; }
+
+.hyperlink-blue { color: #1e73be !important; }
+
+.section-color-midnightblue { background-color: midnightblue !important; }
+
+.section-color-dimgrey { background-color: dimgrey !important; }
+
+.go-back-link { display: block; text-align: center; background-color: #12027a; color: #fff !important; font-weight: 600 !important; padding: 5px 20px; margin: auto; border-radius: 15px; border: 2px #fff solid; max-width: 300px; letter-spacing: 1px; }
+
+#panel-91-1-0-0 { max-width: none !important; margin: auto !important; }
+
+/************************************* */
+/*      ICONS (Buttons) */
+/************************************* */
+/* Makes the icons round */
+.image { border-radius: 100% !important; }
+
+/* Centers the icons on the screen */
+/* Center page icons on the page */
+/* Lays out the icons on each */
+/* Puts some spacing between page icons that are lined up vertically */
+/* Icon Button Titles */
+.widget-title { margin-bottom: 0px !important; padding: 10px 5px; font-family: "Roboto", sans-serif; font-size: 16px !important; font-weight: bold !important; text-align: center; letter-spacing: 1.25px; color: #f96c0e !important; text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000; }
+
+/* Styles each icon/button */
+div[id^="panel-"] { margin: auto !important; padding-bottom: 40px !important; }
+
+/* Makes the "buttons" look like they've been pressed on click */
+div[id^="panel-"]:active { transform: translate(4px, 4px); }
+
+/* MY CSS FRAMEWORK */
+/* TEXT-RELATED */
+.left { text-align: left; }
+
+.right { text-align: right; }
+
+.center { text-align: center; }
+
+.bold { font-weight: bold; }
+
+.hide { display: none; }
+
+.hidden { visibility: hidden; }
+
+.underline { text-decoration: underline !important; }
+
+.no-underline { text-decoration: none !important; }
+
+/* CONTENT-RELATED */
+.inline { display: inline-block !important; }
+
+.inline-block { margin-top: -80px; margin-left: 180px; }
+
+.display-block { display: block; }
+
+.hide-on-mobile { visibility: hidden; }
+
+.show-on-mobile-only { visibility: visible; }
+
+.remove-min-height { min-height: 0 !important; }
+
+/* Hide up/down arrows ("spinners") on input fields marked type="number" */
+/* Spinners are up/down arrows on an input[type="numbers"] element */
+.no-spinners::-webkit-outer-spin-button, .no-spinners::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+/* Removes Bullet points in unordered lists */
+.show-bullets li { list-style: disc !important; }
+
+.no-bullets { list-style: none; }
+
+.no-border { border: none !important; }
+
+/* Changes the font color in the tables */
+.tablepress { color: #000; }
+
+.move-up-30-in-mobile { margin-top: -30px !important; }
+
+/************************************* */
+/*      NOTIFICATION BAR */
+/************************************* */
+#wnb-bar { padding-top: 10px; padding-bottom: 5px; }
+
+span.wnb-bar-button { font-size: 9px; font-weight: strong; padding: 5px 10px; }
+
+#wnb-bar, span.wnb-bar-button { font-family: "Open Sans", sans-serif; }
+
+/********************************* */
+/*     INDIVIDUAL PAGES           */
+/********************************* */
+/******** ADMIN Page ******* */
+#panel-58-2-0-0 { border: none; }
+
+.page-id-11986 .su-post { background-color: #eaeaea; background-color-color: #000000; background-color-padding: 20px; }
+
+.page-id-11986 .su-post-comments-link { display: none; }
+
+/* Sets width for the news box */
+.page-id-11986 .su-posts { max-width: 600px; margin: auto; }
+
+/******* ADMIN DASHBOARD LOGIN Page  ******* */
+#login h1 a { height: 125px !important; }
+
+/******* AIR MGMT REPORTS Page ****** */
+.page-id-13702 { background: none; background-color: darkgray; color: #000000 !important; }
+
+/******* AIR MGMT Page  ******* */
+#panel-11783-2-0-0 { border: none; }
+
+/******* APPARATUS Page  ******* */
+.page-id-11991 { background: none; background-color: darkgray; color: #000000; }
+
+/* Eliminates the "clicked" illusion */
+.page-id-11991 div[id^="panel-"]:active { transform: none; }
+
+#panel-11991-0-0-0, #panel-11991-1-0-0 { border: none; }
+
+/******* BANNERS ON HOME PAGE ******* */
+.banner-title { display: inline; font-size: 18px; font-weight: bold; -webkit-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -moz-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -o-text-shadow: 0.5px 0.5px 0.5px #000000 !important; text-shadow: 0.5px 0.5px 0.5px #000000 !important; }
+
+.banner-button { display: inline; background-color: #000000; color: #ffffff; border: 2px solid #ffffff; border-radius: 5px; padding: 3px; }
+
+.banner-button a { text-decoration: none !important; color: #ffffff; }
+
+/* 1st Big Banner on Home page */
+#panel-13994-2-0-0 { min-height: 0; max-width: 320px; background-color: #1a53ff; padding-top: 5px; padding-bottom: 0 !important; border: #ffffff 4px solid; -webkit-box-shadow: 5px 5px 15px #000000 !important; -moz-box-shadow: 5px 5px 15px #000000 !important; -o-box-shadow: 5px 5px 15px #000000 !important; box-shadow: 5px 5px 15px #000000 !important; }
+
+/* Hides the 1st Big Banner */
+#pg-13994-2 { display: none !important; }
+
+/* 2nd Big Banner on Home page */
+#panel-13994-3-0-0 { min-height: 0; max-width: 320px; background-color: #cc0000; padding-top: 5px; padding-bottom: 0 !important; border: #ffffff 4px solid; -webkit-box-shadow: 5px 5px 15px #000000 !important; -moz-box-shadow: 5px 5px 15px #000000 !important; -o-box-shadow: 5px 5px 15px #000000 !important; box-shadow: 5px 5px 15px #000000 !important; }
+
+/* Hides the 2nd Big Banner.  If you want to show the banner, simply comment out the line */
+#pg-13994-3 { display: none !important; }
+
+/******* BLOOD DRAWS PAGE  ****** */
+.page-id-13598 .wp-image-14458 { /* Makes the image round */ border-radius: 100%; /* Moves the image to the right side of screen */ float: right; }
+
+.page-id-13598 .ui-accordion-header { font-size: 16px; }
+
+.page-id-13598 .ui-accordion-content { background-color: #ffffff; color: #000000; padding: 20px; overflow: visible; height: none; }
+
+.page-id-13598 .ui-state-default { padding: 10px; }
+
+#post-13598 .inside-article { padding-bottom: 0; }
+
+#blood-draws-accordion { width: 90%; max-width: 750px; padding-top: 10px; margin: 0 auto; font-size: 14px !important; height: 100% !important; }
+
+#blood-draws-accordion .ui-state-default { background: none; background-color: #ce4050 !important; color: #ffffff !important; }
+
+/******* CHANGELOG PAGE  ******* */
+.changelog-content { background: none !important; background-color: #eaeaea !important; color: #000000 !important; font-size: 16px; padding: 20px; }
+
+.changelog-red { font-size: 11px !important; color: #cc0000; text-decoration: none !important; font-weight: normal !important; }
+
+/******* CHIEF'S PAGE  ******* */
+.page-id-14881 .featured-image { max-width: 200px; }
+
+/******* CSRT ROSTER Page  ******* */
+.page-id-19010 { background: none !important; background-color: #eaeaea !important; color: #000000 !important; }
+
+/* Set max width for table and centers it on the screen */
+#csrt-roster-table { max-width: 450px; margin: auto; border: 2px #000000 solid; }
+
+/* Centers the table headings */
+#csrt-roster-table th { text-align: center; font-size: 13px; font-weight: bold; border: none; }
+
+/* Adds the grid within the table */
+#csrt-roster-table td { font-size: 13px !important; border: 1px solid darkgrey !important; }
+
+.csrt-main-heading { font-size: 20px !important; }
+
+/* Add a thick border on the bottom of the 2nd header row */
+.csrt-roster-border-bottom { border-bottom: 3px #000000 solid !important; }
+
+/* Enlarges the Shift and the Date */
+.roster-shift, .roster-date { font-size: 20px !important; font-weight: bold !important; }
+
+/******* DEATH NOTICES Page  ******* */
+#death-notices-table tr td:first-child { text-align: right !important; width: 120px; }
+
+#death-notices-container { min-height: 250px; background-color: darkgray; color: #000000; }
+
+.page-id-13262 { background: none; background-color: darkgray; color: #000000; }
+
+.wp-image-13380 { border-radius: 100%; }
+
+#death-notices-accordion { width: 75%; margin: auto; }
+
+/******* DEPARTMENT FORMS Page  ******* */
+.forms-list { font-weight: bold; font-size: 16px; }
+
+.page-id-11971 .inside-article { background: none !important; background-color: #eaeaea !important; color: #000000 !important; line-height: 2.5; }
+
+/******* EDO PAGE ****** */
+.page-id-12754 { background: none; background-color: darkgray; color: #000000; }
+
+/******* EMS Page  ****** */
+.wp-image-12742 { border-radius: none !important; }
+
+/* Removes the borders around the go back link */
+#panel-63-5-0-0 > .panel-widget-style { border: none !important; }
+
+/* Removes the Min Height of the Go Back link */
+#panel-63-5-0-0 { min-height: 0 !important; }
+
+/* Styling for the EMS News */
+.page-id-63 div[id^="panel-"] { max-width: 600px; margin: auto; }
+
+/* Adds a gray background to the news boxes */
+.page-id-63 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+.page-id-63 .su-post-comments-link { display: none; }
+
+.page-id-12754 .entry-title { color: #000000; }
+
+/******* EXECUTIVE OFFICER Page  ******* */
+.page-id-21380 .su-column-inner a, .page-id-21382 .su-column-inner a, .page-id-21385 .su-column-inner a { color: #ffffff; }
+
+.page-id-21380 .su-column-inner, .page-id-21382 .su-column-inner, .page-id-21385 .su-column-inner { line-height: 30px; }
+
+.page-id-21380 .su-button, .page-id-21382 .su-button, .page-id-21385 .su-button { width: 280px !important; }
+
+.page-id-21371 div[id^="panel-"] { min-height: 0; }
+
+.page-id-21380 .inside-article, .page-id-21385 .inside-article { background-color: dimgray; color: #ffffff; padding: 40px 10px 10px 10px; }
+
+.page-id-21380 .su-spoiler-style-default > .su-spoiler-title, .page-id-21385 .su-spoiler-style-default > .su-spoiler-title { padding-left: 20px; background-color: #f96c0e; -webkit-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -moz-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -o-text-shadow: 0.5px 0.5px 0.5px #000000 !important; text-shadow: 0.5px 0.5px 0.5px #000000 !important; }
+
+.page-id-21380 .su-spoiler-style-default > .su-spoiler-content, .page-id-21385 .su-spoiler-style-default > .su-spoiler-content { padding: 5px !important; }
+
+.page-id-21380 .su-spoiler-content ul, .page-id-21385 .su-spoiler-content ul { margin-left: 10px; }
+
+.page-id-22378 .gfield_label { -webkit-text-shadow: 0.5px 0.5px 3px #000000 !important; -moz-text-shadow: 0.5px 0.5px 3px #000000 !important; -o-text-shadow: 0.5px 0.5px 3px #000000 !important; text-shadow: 0.5px 0.5px 3px #000000 !important; }
+
+/******* EXECUTIVE Page  ******* */
+/* Centers Go Back Link */
+#panel-14853-1-0-0 { margin: auto; }
+
+/******** FILL THE BELL Page ******* */
+/* Calendar (Public-Facing) */
+.page-id-20832 #formheader_1, .page-id-20832 #formheader_2 { font-size: 9px !important; }
+
+.page-id-20832 #field span { color: #a6a6a6; font-size: 11px !important; }
+
+.page-id-20832 label { display: none !important; }
+
+.page-id-20832 .fieldCalendarServicefieldname1_1, .page-id-20832 .fieldCalendarServicefieldname1_2 { display: none; }
+
+.page-id-20832 #field_1-1, .page-id-20832 #field_1-2, .page-id-20832 #field_1-3, .page-id-20832 #field_1-4, .page-id-20832 #field_2-1, .page-id-20832 #field_2-2, .page-id-20832 #field_2-3, .page-id-20832 #field_2-4 { display: none; }
+
+.page-id-20832 .pbSubmit { display: none; }
+
+.page-id-20832 .slots { pointer-events: none !important; border: none !important; box-shadow: none !important; -webkit-box-shadow: none !important; }
+
+.page-id-20832 .ui-datepicker { border: none !important; box-shadow: none !important; -webkit-box-shadow: none !important; }
+
+.page-id-20832 a { text-decoration: none; }
+
+/* Keeps the anchor link to call blue once visited */
+.page-id-20832 a:visited { color: #1e73be; }
+
+/*FTB Admin Front Page */
+.ftb-button { width: 280px; padding: 20px 0px; }
+
+/*FTB Schedule Shift */
+/* Removes Label for Services Box */
+.page-id-20896 label[for="fieldname1_1"], .page-id-20896 label[for="fieldname1_2"] { display: none !important; }
+
+/* Removes the Services Select Box */
+.page-id-20896 .fieldCalendarServicefieldname1_1, .page-id-20896 .fieldCalendarServicefieldname1_2 { display: none; }
+
+.page-id-20896 .slots { border: none !important; box-shadow: none !important; -webkit-box-shadow: none !important; }
+
+.page-id-20896 .ui-datepicker { border: none !important; box-shadow: none !important; -webkit-box-shadow: none !important; }
+
+.page-id-20896 .cpefb_error .message { background-color: #f00 !important; color: #ffffff !important; border: #ffffff !important; font-weight: bold !important; }
+
+/*FILL THE BELL SCHEDULE PAGES */
+/* Date */
+.cpappb_field_0 { display: inline; padding-right: 15px; }
+
+/* Time */
+.cpappb_field_1 { display: inline; padding-right: 15px; }
+
+/* Add a line break after Time */
+.cpappb_field_1:after { content: "\a"; white-space: pre; }
+
+/* Person & Phone */
+.cpappb_field_2, .cpappb_field_3 { display: inline; padding-right: 15px; }
+
+/* Notes */
+.cpappb_field_4 { display: block; }
+
+/* Horizontal Lines on Schedule Pages */
+.page-id-20891 hr, .page-id-20877 hr { margin-top: 10px; margin-bottom: 15px; }
+
+/******* FINANCE Page ******* */
+#panel-14834-1-0-0 { border: none; }
+
+/******* FIREFIGHTER WELLNESS & SUPPORT Page ******* */
+#panel-21998-1-0-0 { min-height: 0; }
+
+/* Phone List Button */
+#panel-21998-0-0-0 { min-height: 0 !important; max-width: none; }
+
+/* Phone List Button */
+#panel-21998-0-0-0 button { padding: 20px 10px; border: #ffffff 5px solid; }
+
+/* Phone List Button */
+#panel-21998-0-0-0 button a { color: #ffffff; font-weight: bold; -webkit-text-shadow: 1px 1px 3px #000000 !important; -moz-text-shadow: 1px 1px 3px #000000 !important; -o-text-shadow: 1px 1px 3px #000000 !important; text-shadow: 1px 1px 3px #000000 !important; }
+
+/* Phone List Button */
+#panel-21998-0-0-0 button:hover { background-color: #f96c0e; border: #f96c0e 5px solid; }
+
+/******* GENERAL ORDERS PAGE ****** */
+.page-id-24836 .inside-article { background-color: #222; }
+
+.page-id-24836 div[id^="panel-"] { padding-bottom: 0 !important; }
+
+.page-id-24836 h2 { background-color: #f96c0e; border: 2px #ffffff solid; border-radius: 15px; color: #ffffff; font-size: 20px !important; font-weight: bold; margin-top: 20px; margin-bottom: 0; text-align: center; -webkit-text-shadow: 1.5px 1.5px 1.5px #000000 !important; -moz-text-shadow: 1.5px 1.5px 1.5px #000000 !important; -o-text-shadow: 1.5px 1.5px 1.5px #000000 !important; text-shadow: 1.5px 1.5px 1.5px #000000 !important; }
+
+.page-id-24836 a { color: #ffffff !important; text-decoration: none; }
+
+.page-id-24836 div[id^="panel-"]:active { transform: none; }
+
+/******* HAZMAT RESPONSE FORM Page  ******* */
+.page-id-17971 .inside-article { background: none !important; background-color: #eaeaea !important; color: #000000 !important; line-height: 2.5; }
+
+/******* HEALTH & SAFETY Page  ******* */
+#post-75 .entry-header img { border-radius: 100%; }
+
+#osha-board-table { border: 5px solid #000000; background-color: #ffffff; color: #000000; }
+
+#osha-board-table td { text-align: center; }
+
+#osha-board-table tr, td { border: none !important; }
+
+.osha-box { border: solid 2px #000000 !important; width: 90px; height: 90px; font-size: 22px !important; font-weight: bold; -webkit-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -moz-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -o-text-shadow: 0.5px 0.5px 0.5px #000000 !important; text-shadow: 0.5px 0.5px 0.5px #000000 !important; }
+
+.safety-motto { height: 60px; font-size: 16px; font-weight: bold; }
+
+.osha-board-label { font-weight: bold; }
+
+.total-dollar-loss { text-align: center; font-weight: bolder; color: #ffffff; }
+
+.total-dollar-loss span { font-size: 16px !important; }
+
+th { text-align: center; }
+
+/* All H&S Accordions */
+.page-id-75 .ui-state-default { background: none; background-color: #cc0000 !important; text-align: left; color: #ffffff; font-weight: bold; padding: 10px; }
+
+#accident-accordion, #mass-exposure-reports-accordion { width: 100% !important; max-width: 700px; margin: auto; }
+
+/* Vehicle Accidents Accordion */
+#accident-accordion .ui-accordion-content, #mass-exposure-reports-accordion .ui-accordion-content { padding: 5px !important; }
+
+/* Vehicle Accidents Table */
+#accident-totals-table { background-color: #ffffff; color: #000000; width: 100% !important; font-size: 11px !important; }
+
+#accident-totals-table th, #accident-totals-table td { padding: 2px; }
+
+/* Vehicle Accidents Table */
+#accident-totals-table th { border: #000000 0.25px solid; background-color: #d5dbdb; }
+
+/* Vehicle Accidents Table */
+#accident-totals-table td { border: #d5dbdb solid 1px !important; text-align: center; }
+
+/* Mass Exposures Accordion - allows for full screen width by overriding another CSS style */
+#panel-75-0-0-0 { max-width: 600px !important; }
+
+/* Disables the "click" animation */
+#panel-75-0-0-0:active { transform: none; }
+
+/* Mass Exposures Table - Changes font-size of the table headers */
+.tablepress-id-16 th { font-size: 9px !important; }
+
+/* Mass Exposures Table - Changes font-size of the data */
+.tablepress-id-16 td { font-size: 9px !important; }
+
+/* Mass Exposures Table - Adjusts the widths of the columns  /* Date */
+.tablepress-id-16 .column-1, .tablepress-id-16 .column-2 { width: 60px; }
+
+/* Mass Exposure Accordion - Hide content on mobile devices */
+.tablepress-id-16 .column-6, .tablepress-id-16 .column-7, .tablepress-id-16 .column-8, .tablepress-id-16 .column-9, .tablepress-id-16 .column-10, .tablepress-id-16 .column-11, .tablepress-id-16 .column-12, .tablepress-id-16 .column-13, .tablepress-id-16 .column-14, .tablepress-id-16 .column-15, .tablepress-id-16 .column-16, .tablepress-id-16 .column-17, .tablepress-id-16 .column-18, .tablepress-id-16 .column-19, .tablepress-id-16 .column-20, .tablepress-id-16 .column-21, .tablepress-id-16 .column-22, .tablepress-id-16 .column-23 { display: none !important; }
+
+/* Centers the Mass Exposure list */
+#panel-75-0-0-0 { margin: auto; }
+
+/* Go Back link - Removes the unnecessary border */
+#panel-75-2-0-0 { border: none; }
+
+/******* HOME Page  ******* */
+/* For the colored banners on the home page, refer to 5-indivivual-pages, _banners-home-page.sass */
+/*******  HR Page  ******* */
+/* Removes the Min Height of the Go Back link */
+#panel-58-3-0-0 { min-height: 0 !important; }
+
+/* Styling for the HR/Personnel News */
+/* Adds a gray background to the news boxes */
+.page-id-58 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+/* Widens the news boxes */
+.page-id-58 .su-posts { max-width: 600px; margin: auto; }
+
+/*******  HSA Declaration Form  ******* */
+.page-id-20097 .inside-article { background: none !important; background-color: #eaeaea !important; color: #000000 !important; }
+
+.page-id-20097 .gform_title { font-size: 28px !important; font-weight: bold; text-align: center; }
+
+.hsa-form-verbage { font-weight: bold; font-size: 16px; }
+
+/******* HYDRANTS OUT Page  ******* */
+#hydrants-container { padding: 15px; max-width: 900px; margin: 0 auto; }
+
+.hydrants-out-title { font-size: 1.5em; color: #f96c0e; text-align: left !important; }
+
+.hydrants-out-description { padding: 30px 10px; text-align: left !important; }
+
+.hydrants-out-table { padding: 2px; background: none !important; background-color: #eaeaea !important; color: #000000 !important; }
+
+#hydrants-out-container table th { text-align: center; border: 0.5px solid #000000 !important; }
+
+#hydrants-out-container td { border: 0.5px solid #000000 !important; text-align: center; font-size: 16px !important; }
+
+.hydrants-out-content-background { margin-bottom: 40px !important; padding: 20px 0px 100px 20px !important; background: none !important; background-color: #eaeaea !important; color: #000000 !important; font-size: 14px !important; }
+
+.page-id-24694 .ui-accordion-header { background: #f96c0e !important; color: #000000 !important; font-weight: bold; padding: 10px !important; border-radius: 10px; }
+
+.page-id-24694 .ui-accordion-content { height: auto !important; }
+
+/******* I.T. Page  ******* */
+#panel-74-2-0-0 { border: none; }
+
+/* Telestaff Help */
+.page-id-8694 h3 { color: #ffffff; }
+
+/* Removes the Min Height of the Go Back link */
+#panel-74-3-0-0 { min-height: 0 !important; margin: auto; }
+
+/* Styling for the I.T. News */
+.page-id-74 div[id^="panel-"] { max-width: 700px !important; }
+
+/* Adds a gray background to the news boxes */
+.page-id-74 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+/* Widens the news boxes */
+/******* LOGISTICS Page ******* */
+/* Styling for the Logistics News */
+.page-id-13790 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+.page-id-13790 .su-post-comments-link { display: none; }
+
+/* Sets width for the news box */
+.page-id-13790 .su-posts { max-width: 600px; margin: auto; }
+
+/******* MAYDAY Page ******* */
+.page-id-23562 .inside-article { background: #ffffff; color: #000000 !important; }
+
+/******* MEDIA RELATIONS Page ******* */
+.page-id-15328 div[id^="panel-"] { max-width: 600px; margin: auto; }
+
+.page-id-15328 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+.page-id-15328 .su-post-comments-link { display: none; }
+
+/******* MISSING TOOLS Page ******* */
+.page-id-15349 { background: none; background-color: darkgray; color: #000000; }
+
+/******* MOBILE CAD VIDEOS page ******* */
+/* Adjusts the sizes of the video "buttons" */
+.page-id-19902 div[id^="panel-"] { min-height: 0; }
+
+/* Sizes the titles for each video */
+.page-id-19902 h4 { font-size: 22px !important; font-weight: bold !important; text-align: center !important; color: #f96c0e; }
+
+/* Centers the descriptions under each label */
+.page-id-19902 p { text-align: center; }
+
+/* Adds a bottom margin to each video to space things out */
+div[id^="pgc-19902-"][id$="-1"], div[id^="pgc-19902-"][id$="-3"] { margin-bottom: 100px !important; }
+
+/******* MONTHLY COMPANY-LEVEL TRAINING page ******* */
+/* Enlarges the Month/Year */
+#panel-16670-0-0-0 .widget-title { font-size: 28px !important; text-transform: uppercase; }
+
+/* Removes the padding from the PowerPoint title so that the note is closer to the title */
+#panel-16670-1-0-0 .widget-title { margin-bottom: 3px; }
+
+/* Adjusts the size of the Month/Year panel */
+#panel-16670-0-0-0 { min-height: 0; }
+
+/* Columns - Aligns the text to the left */
+#panel-16670-1-0-0, #panel-16670-1-1-0 { text-align: left; }
+
+/* Enlarges the training topic titles */
+#pgc-16670-1-0 a, #pgc-16670-1-1 a, #pgc-16670-1-2 a { color: #ffffff; font-size: 18px !important; }
+
+#panel-16670-1-0-0:active, #panel-16670-1-1-0:active, #panel-16670-1-2-0:active { transform: none; }
+
+/* Adjusts the How To Enter Into Ninth Brain panel */
+#panel-16670-2-0-0 { min-height: 0; }
+
+/* Disables other CSS that prevents the font size from increasing */
+.page-id-16670 .custom-html-widget a { font-size: initial !important; }
+
+.page-id-16670 button { border-radius: 15px; -webkit-box-shadow: 6px 6px 20px #000000 !important; -moz-box-shadow: 6px 6px 20px #000000 !important; -o-box-shadow: 6px 6px 20px #000000 !important; box-shadow: 6px 6px 20px #000000 !important; border: 3px #ffffff solid; background-color: #f96c0e; color: #000000; font-weight: bold; }
+
+/* Disables the "click" animation */
+#panel-15551-0-0-0:active { transform: none; }
+
+/******* NFPA 921 PAGE ****** */
+/* Disables the "button click" effect */
+.page-id-30056 div[id^="panel-"]:active { transform: none; }
+
+/* Makes the links white */
+.page-id-30056 .custom-html-widget a { color: #ffffff; font-size: 16px; line-height: 35px; }
+
+/******* OFFICIAL REPORT Page ******* */
+/* Official Report Form */
+.official-report-header h3 { text-align: center !important; padding: 40px; background-color: gray; color: #000000; border: 9px #000000 double; }
+
+.official-report-logo-container { max-width: 200px; }
+
+.official-report-header img { width: 50% !important; margin-left: 100px; }
+
+/* Official Report Form */
+.page-id-18875 .inside-article { background: none; background-color: #ffffff; color: #000000 !important; padding: 40px !important; }
+
+.page-id-18875 .gform_body { color: #000000; }
+
+/******* OPERATIONS Page ******* */
+/* Styling for the Operations News */
+/* Adds a gray background to the news boxes */
+.page-id-506 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+/* Sets width for the news box */
+.page-id-506 .su-posts { max-width: 600px; margin: auto; }
+
+.page-id-506 .su-post-comments-link { display: none; }
+
+/******* OPERATIONS MANUAL Page ******* */
+.page-id-8780 .so-widget-sow-button-atom-4a75a8acc3b6 .ow-button-base a { height: 60px; background-color: #cc0000; }
+
+.page-id-8780 span { -webkit-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -moz-text-shadow: 0.5px 0.5px 0.5px #000000 !important; -o-text-shadow: 0.5px 0.5px 0.5px #000000 !important; text-shadow: 0.5px 0.5px 0.5px #000000 !important; }
+
+.page-id-8780 div[id^="panel-"] { min-height: 0; }
+
+/* Adds a white border to each button */
+.so-widget-sow-button-atom-7cf9465efeb9 .ow-button-base a { border: #ffffff 1px solid !important; }
+
+/******* PEER SUPPORT Page ******* */
+#post-7278 .inside-article { background-color: #eaeaea; color: #000000; line-height: 28px; }
+
+/*******  PEHP Declaration Form  ******* */
+.page-id-20099 .inside-article { background: none !important; background-color: #eaeaea !important; color: #000000 !important; }
+
+.page-id-20099 .gform_title { font-size: 28px !important; font-weight: bold; text-align: center; }
+
+.pehp-form-verbage { font-weight: bold; }
+
+/******* PENSION Page ******* */
+#panel-62-1-0-0 { border: none; }
+
+/******* PHYSICAL FITNESS Page ******* */
+#pgc-13429-0-0 { width: none !important; }
+
+.page-id-13249 .widget { text-align: left; }
+
+.page-id-13249 .so-panel { margin: 0; }
+
+.page-id-13249 div[id^="panel-"] { margin: auto; }
+
+/* PFT Title */
+#pg-13249-0 { margin-bottom: 0px !important; }
+
+.page-id-13249 .widget-title { margin-bottom: 0px !important; margin-top: 30px; }
+
+#panel-13249-0-0-0 { min-height: 0; }
+
+#pg-13249-1 { align-items: stretch !important; }
+
+#pgc-13249-0-0 { margin-bottom: 0px !important; }
+
+/* A-shift */
+#tablepress-12 .row-1 td { background-color: #000000 !important; color: #ffffff; text-align: center; }
+
+/* B-shift */
+#tablepress-13 .row-1 td { background-color: red !important; color: #ffffff; text-align: center; }
+
+/* C-shift */
+#tablepress-14 .row-1 td { background-color: green !important; color: #ffffff; text-align: center; }
+
+/******* PROMOTION Page ******* */
+#panel-16685-0-0-0 { min-height: 0 !important; }
+
+.promotion-title, .promotion-button { display: block; }
+
+.promotion-button { max-width: 50%; margin: auto; }
+
+/******* PUB ED Page  ******* */
+#panel-13043-1-0-0 { border: none; }
+
+/*******QUARTERMASTER Page ******* */
+#panel-78-1-3-0, #panel-78-3-0-0 { border: none; }
+
+/******* QUARTERMASTER REPORTS****** */
+.page-id-13893 { background: none; background-color: darkgray; color: #000000; }
+
+/******* RECRUITMENT Page  ******* */
+.page-id-13045 .inside-article { background: none; background-color: darkgray; color: #000000 !important; font-size: 14px; line-height: 1.75 !important; text-align: justify !important; margin: auto; max-width: 700px; }
+
+#panel-13045-0-0-0 { max-width: 800px; }
+
+#panel-13045-0-0-1 p, #panel-13045-0-1-0 p { text-align: left; }
+
+#panel-13045-1-0-0 { padding: 50px; margin: auto; -webkit-box-shadow: 18px 18px 50px #000000 !important; -moz-box-shadow: 18px 18px 50px #000000 !important; -o-box-shadow: 18px 18px 50px #000000 !important; box-shadow: 18px 18px 50px #000000 !important; background-color: #eaeaea; }
+
+/******** REGISTRATION & LOGIN Page ******* */
+#login { width: 95% !important; }
+
+.login h1 a { background-size: 620px 120px !important; height: 120px !important; }
+
+/* Login Form - Hides the User Role selection box - Not needed */
+#wppb-form-element-17 { display: none !important; }
+
+/* Login Form - Hides the Pre-form message - not needed */
+#wppb_register_pre_form_message { display: none !important; }
+
+/* Forums - Registration Confirmation page */
+/* Styles the Click Here to Get Started link */
+.forums-get-started-button { padding: 20px 40px; background: blue; width: 200px; text-transform: uppercase; font-size: 14px; }
+
+.forums-get-started-button a { height: 90px; background-color: blue; color: #ffffff; font-weight: bold; }
+
+#post-11444 .center-page-icons a { margin-top: 20px; }
+
+/* Login Form styling - labels for input boxes */
+.wppb-user-forms label { text-align: right; margin-right: 1%; width: 30% !important; max-width: 200px; }
+
+/* Login Form styling - labels for input boxes */
+.wppb-user-forms input { width: 60% !important; max-width: 300px; }
+
+/* Login Form styling - Remember me checkbox */
+#rememberme { width: 5% !important; margin-left: 35px; }
+
+/* Login Form styling - Submit & Register Buttons */
+input#wppb-submit, #register { max-width: 200px !important; background-color: #1a75ff; /* blue */ }
+
+/* Old Login Links - Smaller font for Register and Lost Password */
+.bbp-login-links { font-size: 11px; padding-top: 30px; margin-left: -40px; }
+
+/* Old Login Links - Register & Lost your password */
+.bbp-login-links a { float: none !important; }
+
+/* Old Login - adds a bar between register and lost password */
+.bbp-login-links a:first-child::after { content: " *"; }
+
+/* Old Login Message box after registering */
+#login .message { background: #cc0000; color: #ffffff; border-left: none; border: 4px solid #000000; font-size: 18px; }
+
+/******* RISK REDUCTION Page  ******* */
+/* Styling for the Risk Reduction News */
+/* Styling for the Risk Reduction News */
+.page-id-12898 .su-post { background-color: #eaeaea; color: #000000; padding: 20px; }
+
+/* Styling for the Risk Reduction News */
+.page-id-12898 .su-post-comments-link { display: none; }
+
+/* Sets width for the news box */
+.page-id-12898 .su-posts { max-width: 600px; margin: auto; }
+
+/******* ROAD CONSTRUCTION Page  ******* */
+#road_construction-container { padding: 15px; max-width: 900px; margin: 0 auto; }
+
+.road-project-title { font-size: 1.5em; color: #f96c0e; text-align: left !important; }
+
+#road_construction-container table th { text-align: center; border: 0.5px solid #000000 !important; }
+
+#road_construction-container td { border: 0.5px solid #000000 !important; text-align: center; font-size: 16px !important; }
+
+.road-project-table { padding: 2px; background: none !important; background-color: #eaeaea !important; color: #000000 !important; }
+
+.page-id-19218 .ui-accordion-header { background: #f96c0e !important; color: #000000 !important; font-weight: bold; padding: 10px !important; border-radius: 10px; }
+
+.page-id-19218 .ui-accordion-content { height: auto !important; }
+
+.road-project-content-background { margin-bottom: 40px !important; padding: 20px 0px 100px 20px !important; background: none !important; background-color: #eaeaea !important; color: #000000 !important; font-size: 14px !important; }
+
+.road-project-description { padding: 30px 10px; text-align: left !important; }
+
+/*******SOPs PAGE ****** */
+.page-id-26473 .inside-article { background-color: #222; }
+
+.page-id-26473 div[id^="panel-"] { padding-bottom: 0 !important; }
+
+.page-id-26473 h2 { background-color: #f96c0e; border: 2px #ffffff solid; border-radius: 15px; color: #ffffff; font-size: 20px; font-weight: bold; margin-top: 20px; margin-bottom: 0; text-align: center; -webkit-text-shadow: 1.5px 1.5px 1.5px #000000 !important; -moz-text-shadow: 1.5px 1.5px 1.5px #000000 !important; -o-text-shadow: 1.5px 1.5px 1.5px #000000 !important; text-shadow: 1.5px 1.5px 1.5px #000000 !important; }
+
+.page-id-26473 a { color: #ffffff !important; text-decoration: none; }
+
+.page-id-26473 div[id^="panel-"]:active { transform: none; }
+
+.sop-section-title { font-size: 20px; font-weight: bold; margin: 60px 0 20px 0; text-decoration: underline; }
+
+.sop-remove-top-margin { margin-top: 0; }
+
+/******* SINGLE PAGES  ******* */
+/******* SIIT REPORTS  ******* */
+.page-id-13741 table { background: none !important; background-color: #eaeaea !important; color: #000000 !important; }
+
+#siit-reports-table { width: 95%; max-width: 700px; margin: auto; }
+
+#siit-reports-table th, #siit-reports-table td { border-bottom: 1px #000000 solid !important; padding: 15px !important; }
+
+/* Makes the table responsive */
+#siit-report-container { overflow-x: auto; }
+
+.siit-instructions { color: #ffffff !important; font-size: 11px; text-align: center; }
+
+/******* SPECIAL OPS Page  ******* */
+#panel-91-2-0-0 { border: none; }
+
+/******* STATION Pages  ******* */
+.wp-image-14144 { border-radius: 100%; }
+
+.station-table-link { text-decoration: underline; font-weight: bold; font-size: 1.2em; }
+
+#tablepress-7 { max-width: 500px; margin: auto; }
+
+/******* Station 25 ****** */
+.page-id-150 { color: #ffffff; }
+
+.page-id-150 ul li, .page-id-150 p { font-size: 18px; }
+
+/******* TELESTAFF HELP Page  ******* */
+.page-id-18431 div[id^="panel"] { min-height: 0; }
+
+.page-id-18431 h3.widget-title { font-size: 22px !important; margin-bottom: 5px !important; }
+
+.page-id-18431 .ts-help-format-button span { line-height: 22px; }
+
+/******* TRAINING Page  ******* */
+#panel-90-2-0-0 { border: none; }
+
+/******* TRAINING ARCHIVES Page ******* */
+.page-id-25558 .inside-article { background-color: #eaeaea; color: #000 !important; }
+
+.page-id-25558 .inside-article .widget-title { color: #000 !important; text-shadow: none; }
+
+/* Hides duplicated widget title "Archived Trainings" - it's not needed due to larger page heading directly above it. */
+#pg-25558-0 { display: none; }
+
+/******* TRAINING FOR INSPECTIONS Page ****** */
+/* Adjusts size of first row */
+#panel-8204-0-0-0, #panel-8204-0-1-0, #panel-8204-0-2-0, #panel-8204-0-3-0 { min-height: 0 !important; padding-top: 50px; padding-bottom: 50px; }
+
+#pg-8204-1 { align-items: stretch !important; }
+
+.page-id-8204 .pdfemb-viewer { margin: auto; }
+
+#panel-8204-2-0-0 { min-height: 0 !important; margin: auto; }
+
+/******* Training Reference Page ****** */
+#panel-14535-1-0-0 { border: none; }
+
+/******* TSU & BACKUPS Page  ******* */
+.page-id-13715 { background: none; background-color: darkgray; color: #000000; }
+
+/******* WEBMASTER FEEDBACK FORM  ******* */
+.page-id-22378 .gform_title { display: none; }
+
+/******* WHO DO I CONTACT Page  ******* */
+#tablepress-11 { color: #000000; font-size: 11px; width: 100%; }
+
+.after-hours { display: block; text-align: center; background-color: #ffffff; font-weight: bold; padding: 5px 20px !important; margin: 50px auto; border-radius: 15px; max-width: 700px; }
+
+/******* WORKFORCE CENTRAL HELP Page  ******* */
+/* Note: Section colors are in the Global */
+/*  CSS settings at the top of this file */
+.page-id-18354 .inside-article { padding: 20px; }
+
+.page-id-18354 div[id^="panel"] { min-height: 0; }
+
+/* Makes the Get Started buttons a uniform width */
+.page-id-18354 .wfc-get-started-button { width: 300px; }
+
+/* Adds space between text if it's more than one line */
+.page-id-18354 .wfc-help-format-button span { line-height: 22px; }
+
+/* Decreases the amount of space between the title and the content */
+.page-id-18354 div[id^="panel"] .widget-title { margin-bottom: 5px !important; }
+
+/* Adjusts widths for mobile on Workforce Cent & Telestaff Buttons */
+.page-id-18354 .wfc-help-format-button, .page-id-18431 .ts-help-format-button { width: 95% !important; font-size: 14px !important; /* Added form below */ }
+
+/********************************* */
+/*     MEDIA QUERIES              */
+/********************************* */
+@media (min-width: 768px) { /*== Global == */
+  h1 { font-size: 28px !important; }
+  .hide-on-mobile { visibility: visible !important; }
+  .separate-containers .inside-article { padding: 5px; }
+  .header-image { width: 30% !important; }
+  .inside-header { padding: 80px 0px 120px 0px; } }
+.move-up-30-in-mobile { margin-top: 0 !important; /*== BANNERS page == */ /*== CHIEF'S page == */ /*== COMMAND page == */ /*== Command - Fire Guide  == */ /* High Rise Worksheet */ /* High Rise Worksheet - Moves the 'Clear Form' button to the right */ /* High Rise Worksheet - Styles the 'Go to' buttons */ /* High Rise Worksheet - Moves the Save button to the left and styles it */ /* High Rise Worksheet - Displays Inputs Inline */ /*  Adds Space between 1st and 2nd row icons */ /* Home page Rows 0=row1, 1=row2, etc. through row 6*/ #pg-13994-0 #pg-13994-1, #pg-13994-2, #pg-13994-3, #pg-13994-4, #pg-13994-5, */ /* House Capt's page */ #pg-11964-1, */ /* Ops page*/ #pg-506-1, */ /* Logs page */ #pg-13790-1, */ /* Tech page */ #pg-12898-1,  #pg-11986-1, */ /* Admin page */ #pg-74-1, */ /* EMS page */ #pg-63-2 margin-top: 80px */ /*== EXECUTIVE OFFICER page == */ /*== FILL THE BELL ==*/ .page-id-20832 #field h1 text-align: left  .page-id-20832 p text-align: center  .ftb-button width: 400px */ /*== HEALTH & SAFETY page == */ /* Health & Safety page - Accidents Accordion */ /*== LOGIN Form styling == */ /*== LOGISTICS Page == */ /*== LOSS CALCULATOR page ==*/  /* Keeps the content from getting too wide.  Looks horrible */ .page-id-17831 .inside-article max-width: 700px margin: auto   /* Lines up the 'Total' field labels with the box */ label[for="input_2_13"], label[for="input_2_14"] margin-left: 20%   /* Styling for the 'Click here to find...' value link. */ .page-id-17831 #field_2_2 a font-size: $font-size-large + 4 line-height: 4 color: $orange */ /*== MASS EXPOSURE page ==*/  /* Accordion - Widens it to show more content*/ #panel-75-0-0-0, #mass-exposure-reports-accordion max-width: none !important   /* Mass Exposure Accordion - Show more content in wider accordion */ .tablepress-id-16 .column-6, .tablepress-id-16 .column-7, .tablepress-id-16 .column-8, .tablepress-id-16 .column-9, .tablepress-id-16 .column-10, .tablepress-id-16 .column-11, .tablepress-id-16 .column-12, .tablepress-id-16 .column-13, .tablepress-id-16 .column-14, .tablepress-id-16 .column-15, .tablepress-id-16 .column-16, .tablepress-id-16 .column-17, .tablepress-id-16 .column-18, .tablepress-id-16 .column-19, .tablepress-id-16 .column-20, .tablepress-id-16 .column-21, .tablepress-id-16 .column-22, .tablepress-id-16 .column-23 display: table-cell !important */ /*== MOBILE CAD VIDEOS page ==*/ .page-id-19902 h4 text-align: right */ /*== NFPA 921 PROMOTION page ==*/ .page-id-30056 .custom-html-widget a font-size: 18px */ /*== PROMOTION page ==*/ .promotion-title, .promotion-button display: inline-block */ /*== SIIT Reports page == */ }
+.move-up-30-in-mobile #panel-13994-2-0-0, .move-up-30-in-mobile #panel-13994-3-0-0 { max-width: 600px; }
+.move-up-30-in-mobile .page-id-14881 .entry-title { margin-left: -30%; margin-top: -30px; padding-bottom: 30px; }
+.move-up-30-in-mobile .command-fire-guide-high-rise-button { max-width: 400px; margin: 30px auto !important; }
+.move-up-30-in-mobile .clear-both-mobile-only { clear: both; }
+.move-up-30-in-mobile #gform_submit_button_17 { float: right; position: static; }
+.move-up-30-in-mobile #gform_next_button_17_5, .move-up-30-in-mobile #gform_previous_button_17 { max-width: 300px; display: block; margin: 60px auto; }
+.move-up-30-in-mobile #gform_save_17_link { margin-left: 0; }
+.move-up-30-in-mobile .page-id-18662 .gform_wrapper ul li.gfield { display: inline-block; margin-right: 15px; padding: 10px 0 10px 5px; }
+.move-up-30-in-mobile .page-id-21380 .inside-article, .move-up-30-in-mobile .page-id-21385 .inside-article { padding: 40px 80px !important; }
+.move-up-30-in-mobile .page-id-21380 .su-spoiler-title, .move-up-30-in-mobile .page-id-21385 .su-spoiler-title { max-width: 800px; margin: auto; }
+.move-up-30-in-mobile #accident-accordion { max-width: 600px !important; }
+.move-up-30-in-mobile #panel-75-0-0-0, .move-up-30-in-mobile #panel-75-1-0-0 { min-height: initial !important; }
+.move-up-30-in-mobile #rememberme { margin-left: 10px; }
+.move-up-30-in-mobile #tablepress-8 { max-width: 95%; }
+.move-up-30-in-mobile .siit-instructions { font-size: 16px !important; }
+.move-up-30-in-mobile .footer-widgets a { line-height: 30px; }
+
+@media (min-width: 600px) { div[id^="pg-"] { -webkit-flex-direction: row !important; flex-direction: row !important; justify-content: space-around !important; } }
+/********************************* */
+/*     APPLICATIONS               */
+/********************************* */
+/******* HIGH RISE WORKSHEET Page ******* */
+/* Removes Sitemap */
+.page-id-18662 .site-footer { display: none; }
+
+/* Removes bottom border on Section titles */
+.page-id-18662 .gsection { display: block !important; border-bottom: none; margin: 0; }
+
+/* Layout */
+.page-id-18662 .gform_wrapper ul li.gfield { display: inline-block; margin-right: 15px; padding: 10px 0 10px 5px; }
+
+/* Adds slight left margin to page */
+.page-id-18662 .entry-content { margin-left: 5px; }
+
+/* Page Layout */
+.page-id-18662 .high-rise-div { float: left; max-width: 300px; padding: 0px 10px; }
+
+/* Styles the apparatus inputs and makes them inline */
+.page-id-18662 .gform_page_fields input { font-size: 16px !important; font-weight: bolder; text-align: center; padding: 3px !important; width: 50px !important; text-transform: uppercase; }
+
+/* Save Link */
+#gform_save_17_link { float: left; background-color: royalblue; color: #fff; padding: 12px 30px; margin-bottom: 200px; margin-left: 35%; }
+
+/* Submit Button */
+#gform_submit_button_17 { position: relative; top: 200px; color: #fff; background-color: transparent; }
+
+/* Staging Inputs */
+#input_17_111, #input_17_112, #input_17_113, #input_17_114, #input_17_115, #input_17_116, #input_17_117, #input_17_118, #input_17_119, #input_17_120, #input_17_125, #input_17_150, #input_17_151, #input_17_152, #input_17_153 { width: 90px !important; margin: 0; text-transform: uppercase; }
+
+/* Staging - Left aligns description */
+#field_17_70 .gfield_description, #field_17_71 .gfield_description, #field_17_72 .gfield_description { text-align: left; }
+
+/* Staging Manager - displays on its own line */
+li#field_17_125, li#field_17_130 { display: block; }
+
+/* Staging - Makes groups on own line */
+#field_17_70, #field_17_71, #field_17_72 { display: block; margin-bottom: 30px; }
+
+/* Section Descriptions */
+.page-id-18662 .gsection_description { text-align: center; font-size: 14px !important; }
+
+/* Button Styles */
+.page-id-18662 input[type="button"] { background-color: #f96c0e; color: #fff; }
+
+/* Lessens the bottom margin of Section Titles */
+.page-id-18662 .gform_wrapper .gsection { margin-top: 30px; margin-bottom: 0; }
+
+/* Styles Section Titles */
+.page-id-18662 h2.gsection_title { padding: 20px !important; background-color: #f96c0e; color: #fff; border: 3px solid #fff; text-shadow: #000 0.5px 0.5px 3px; }
+
+/* Removes Background */
+.page-id-18662 { background-image: none; }
+
+/* Styles the Next & Previous buttons (inputs) to their normal size */
+.page-id-18662 .gform_next_button, .page-id-18662 .gform_previous_button { width: 100% !important; border-radius: 15px; border: 3px solid #fff; color: #000 !important; font-weight: bold; text-shadow: #fff 0.5px 0.5px 3px; }
+
+/******* LOSS CALCULATOR Page ******* */
+/* The Loss Calculator is on two pages (Loss Calculator, and Mobile Command Fire Guide) */
+/*  Loss Calculator = .page-id-17831 */
+/* Mobile Command Fire Guide = .page-id-18519 */
+/* Styles & Colors the background of form */
+.page-id-17831 .inside-article { padding: 80px 40px; background: none !important; background-color: darkgray !important; color: #000 !important; }
+
+/* Centers the page title */
+.page-id-17831 .entry-title, .page-id-18519 .entry-title { text-align: center; padding-left: 0; }
+
+/* Adds space between the boxes and limits their size */
+.page-id-17831 input, .page-id-17831 select, .page-id-18519 input, .page-id-18519 select { max-width: 75% !important; }
+
+/* Centers all input and select boxes */
+.page-id-17831 .ginput_container_number, .page-id-17831 .ginput_container_select, .page-id-18519 .ginput_containter_number, .page-id-18519 .ginput_container_select { margin: auto; text-align: center; }
+
+/* Adds a border, background color around titles and centers them */
+.page-id-17831 .gform_wrapper h2, .page-id-18519 .gform_wrapper h2 { border: 1px #fff solid; text-align: center; background-color: #f96c0e; margin-top: 60px !important; width: 100%; }
+
+/* Adds spacing on top and bottom, and centers the link to the Assessor's Office */
+.page-id-17831 #field_2_2, .page-id-18519 #field_2_2 { margin: 30px auto; text-align: center; background-color: #f96c0e; border: 3px #fff solid; border-radius: 30px; }
+
+/* Styles the text in the button on the Loss Calc page */
+.page-id-17831 #field_2_2 a { color: #000; text-shadow: 0.25px 0.5px 0.25px #fff; }
+
+/* Hide up/down arrows ("spinners") on Property value field marked type="number" */
+/* Spinners are up/down arrows on an input[type="numbers"] element */
+.page-id-17831 #input_2_5::-webkit-outer-spin-button, .page-id-17831 #input_2_5::-webkit-inner-spin-button, .page-id-18519 #input_2_5::-webkit-outer-spin-button, .page-id-18519 #input_2_5::-webkit-inner-spin-button { -moz-appearance: textfield !important; -webkit-appearance: none !important; margin: 0 !important; }
+
+/* Grays out the CONTENTS value box...it is automatically calculated */
+.page-id-17831 #input_2_7, .page-id-18519 #input_2_7 { background-color: #848484; color: #444444; }
+
+/* Adds spacing for top and centers the Submit button */
+.page-id-17831 .gform_footer, .page-id-18519 .gform_footer { text-align: center; margin: 60px 0 0; }
+
+/* Changes the color of the submit button */
+.page-id-17831 input[type="submit"], .page-id-18519 input[type="submit"] { background-color: #f96c0e; }
+
+/*================================================================================== */
+/*                                MOBILE COMMAND                                    */
+/*=================================================================================== */
+/* HIDE FOOTER in App pages */
+.page-id-18488 .site-footer, .page-id-23801 .site-footer { display: none; }
+
+/*** MAIN PAGE ** */
+.page-id-18488 #comments { background: #000; color: #fff; padding: 40px; }
+
+/*** FIRE GUIDE ** */
+/* Hide Native Navigation Next & Previous Buttons */
+.gform_next_button, .gform_previous_button { display: none !important; }
+
+/* Hide Multi-page form navigation buttons */
+#gf_page_steps_33 { visibility: hidden; height: 30px; }
+
+/* Styles for My Navigation Buttons */
+.rm_navigation_buttons { width: 100%; display: -webkit-inline-flex; -webkit-flex-flow: row; -webkit-justify-content: space-between; }
+
+.rm_navigation_buttons input { width: 140px; padding: 10px !important; font-size: 20px; }
+
+.mayday_benchmarks { background-color: #eaeaea !important; color: #000 !important; padding: 10px; }
+
+.rit_benchmark { font-weight: bold; }
+
+.command-wider-input { min-width: 90px !important; }
+
+.page-id-18488 .featured-image img, .page-id-23801 .featured-image img, .page-id-18597 .featured-image img, .page-id-18622 .featured-image img { width: 100px; display: inline-block; padding-left: 10px; }
+
+.page-id-23801 .gform_wrapper .gform_page_footer { text-align: center; }
+
+.page-id-23801 .rm-page-title { background: none !important; border: none !important; text-transform: uppercase; }
+
+/* Staging Mgr */
+#input_17_125 { float: left; margin-top: -40px; margin-left: 100px; }
+
+.page-id-18597 .su-spoiler, .page-id-18622 .su-spoiler { margin-bottom: 0; }
+
+.page-id-18597 .su-spoiler-style-default > .su-spoiler-content, .page-id-18622 .su-spoiler-style-default > .su-spoiler-content { padding: 0; }
+
+.page-id-18597 .su-spoiler-title, .page-id-18622 .su-spoiler-title { font-size: 16px; background-color: #f96c0e; background-color: #fff; color: #000; }
+
+/*** INSIDE ARTICLE ** */
+.page-id-23801 .inside-article, .page-id-18597 .inside-article, .page-id-18622 .inside-article { padding: 10px !important; }
+
+/*** ENTRY TITLE ** */
+.page-id-18488 .entry-title, .page-id-23801 .entry-title, .page-id-18597 .entry-title, .page-id-18622 .entry-title { font-size: 18px; margin-top: 80px; }
+
+.page-id-18488 .entry-title-line-2, .page-id-23801 .entry-title-line-2, .page-id-18597 .entry-title-line-2, .page-id-18622 .entry-title-line-2 { display: block; font-size: 20px; margin: 10px auto 30px auto; }
+
+/* Fire Guide - Remove Background */
+.page-id-18488, .page-id-23801 { background: #000; }
+
+/* BUTTON COLOR */
+.page-id-23801 input[type="button"] { border-radius: 10px; background-color: #f96c0; }
+
+.page-id-23801 .gfield_label { float: left; width: 270px; padding-right: 10px; font-size: 24px !important; }
+
+.page-id-23801 label[for='input_33_1'], .page-id-23801 label[for='input_33_2'], .page-id-23801 label[for='input_33_3'], .page-id-23801 label[for='input_33_4'], .page-id-23801 label[for='input_33_5'], .page-id-23801 label[for='input_33_6'], .page-id-23801 label[for='input_33_7'], .page-id-23801 label[for='input_33_8'], .page-id-23801 label[for='input_33_9'], .page-id-23801 label[for='input_33_10'], .page-id-23801 label[for='input_33_11'], .page-id-23801 label[for='input_33_12'], .page-id-23801 label[for='input_33_13'], .page-id-23801 label[for='input_33_14'], .page-id-23801 label[for='input_33_15'], .page-id-23801 label[for='input_33_16'], .page-id-23801 label[for='input_33_17'], .page-id-23801 label[for='input_33_18'], .page-id-23801 label[for='input_33_19'], .page-id-23801 label[for='input_33_20'], .page-id-23801 label[for='input_33_21'] { width: 180px !important; margin-bottom: 30px; }
+
+.page-id-23801 .gfield_description { float: left; width: auto !important; padding: 0 !important; margin-top: -45px !important; margin-bottom: 20px; font-size: 22px !important; }
+
+/* Fire Guide - Hides the Checkbox Labels */
+.page-id-23801 .gfield_checkbox label { display: none !important; }
+
+/* Fire Guide - Removes Spinner in Number boxes */
+.page-id-23801 input[type="number"]::-webkit-inner-spin-button { display: non; }
+
+.page-id-23801 input[type="number"] { float: left; width: 50px !important; height: 50px !important; margin-left: 60px; margin-bottom: 20px; text-align: center; font-size: 22px !important; font-weight: bolder; color: #000; }
+
+/* fields_33_2 = Benchmarks, fields_33_3 = Agencies */
+#gform_fields_33_2 input[type="checkbox"], #gform_fields_33_3 input[type="checkbox"] { width: 50px !important; height: 50px; }
+
+.fire-guide-save-link { background-color: #f96c0e !important; padding: 10px; width: 140px; margin: auto; border-radius: 10px; }
+
+.fire-guide-save-link a { color: #fff; }
+
+/* Fire Guide - Hides the GF native Saved Msg page */
+.page-id-23801 .gform_wrapper .form_saved_message { display: none !important; }
+
+/* Fire Guide - Styles text "Saving...."  */
+.saving-fire-guide { margin-top: 120px; font-size: 30px; font-weight: bolder; text-align: center; }
+
+/* Fire Guide - One-off adds padding below Pre-Determined Assignments line */
+#field_33_26 { margin-bottom: 50px; }
+
+/* Fire Guide - One-off adds padding below Pre-Determined Assignments line */
+#choice_33_26_1 { margin-top: 20px; }
+
+/* Fire Guide - Centers the save button on the "Agencies" page */
+.page-id-23801 .gform_page_footer.left_label { padding: 30px 0 !important; }
+
+/* Fire Guide - Hides the Submit button (not working anyway) */
+#gform_submit_button_33 { display: none !important; }
+
+/* Fire Guide - Underlines the Secondary Size-Up Benchmark label so that it's obvious it's a hyperlink */
+#field_33_30 label { text-decoration: underline; }
+
+/* Fire Guide - Removes the Save button on the Secondary Size-Up page */
+#gform_page_33_4 .fire-guide-save-link { display: none; }
+
+/* Fire Guide - Removes Scroll to Top Button (gets in way of form elements) */
+.page-id-23801 .generate-back-to-top { display: none !important; }
+
+/* Fire Guide - Secondary Sizeup */
+#gform_fields_33_4 h1 { margin-top: 60px; margin-bottom: 5px; font-size: 24px; text-align: left; }
+
+/* Fire Guide - Secondary Sizeup - Company Assignments */
+#gform_fields_33_4 li p { font-size: 20px !important; margin-bottom: 0; }
+
+/* Fire Guide - Secondary Sizeup - Company Assignments */
+#field_33_77 label, #field_33_78 label, #field_33_79 label, #field_33_80 label, #field_33_81 label, #field_33_82 label, #field_33_83 label { font-size: 20px !important; }
+
+/* Fire Guide - Secondary Sizeup - Company Assignments */
+#field_33_77 label, #field_33_78 label, #field_33_79 label, #field_33_80 label, #field_33_81 label, #field_33_82 label, #field_33_83 label { font-size: 20px !important; font-weight: normal; width: auto; }
+
+#gform_fields_33_4 li input:not([type="button"]) { width: 55px !important; padding: 0; margin: -11px 0 0 -15px; height: 0 !important; border: none; background: none; color: #fff !important; font-size: 20px; font-weight: normal; }
+
+#field_33_82 label { padding-bottom: 30px; }
+
+/******* MEDIA QUERIES ****** */
+/*Kindle Fire */
+/*** Fire Guide ** */
+/* Fire Guide -  */
+.page-id-18488 .featured-image, .page-id-23801 .featured-image { width: 100px; }
+
+/* Fire Guide -  */
+.page-id-18488 .entry-title, .page-id-23801 .entry-title { font-size: 42px; }
+
+/* Fire Guide -  */
+.rm_navigation_buttons input, .fire-guide-save-link { width: 220px; padding: 10px !important; font-size: 32px; }
+
+/* Fire Guide -  */
+.page-id-23801 .gfield_label { width: 270px; padding-right: 10px; font-size: 32px !important; }
+
+/* Fire Guide -  */
+.page-id-23801 .gfield_description { font-size: 32px !important; }
+
+/* Fire Guide -  */
+.page-id-23801 input[type="number"] { width: 100px !important; height: 80px !important; margin: 18px 0 0 80px; font-size: 42px !important; }
+
+/* Fire Guide - Benchmark List Items &  */
+.page-id-23801 .gfield_label { width: 450px; }
+
+/* Fire Guide - Secondary Sizeup Page */
+#gform_fields_33_4 h1 { font-size: 40px; }
+
+/* Fire Guide - Secondary Sizeup - Company Assignments */
+#gform_fields_33_4 li p { font-size: 32px !important; }
+
+/* Fire Guide - Secondary Sizeup - Company Assignments */
+#field_33_77 label, #field_33_78 label, #field_33_79 label, #field_33_80 label, #field_33_81 label, #field_33_82 label, #field_33_83 label { font-size: 32px !important; }
+
+/* Fire Guide - Secondary Sizeup Assignment Number Inputs */
+#gform_fields_33_4 li input:not([type="button"]) { width: 75px !important; margin: 8px 0 0 -14px; font-size: 32px !important; }
+
+/* Fire Guide - Secondary Sizup Title */
+#field_33_57 h2 { font-size: 32px !important; }
+
+/* Fire Guide -  */
+#field_33_82 label { padding-bottom: 60px; }
+
+/* Fire Guide -  */
+.command-go-back-button { margin-top: 80px; font-size: 28px; width: auto; }
+
+/* Fire Guide -  */
+.page-id-23801 .go-back-link { max-width: none; }
+
+/*Main Command Page */
+.page-id-18488 .entry-header, .page-id-23801 .entry-header { margin-bottom: 80px; }
+
+.page-id-18488 h3.widget-title { font-size: 32px !important; margin-bottom: 0; }
+
+/* iPad */
+/*** Fire Guide ** */
+@media (min-width: 768px) { .page-id-23801 .gfield_description { margin-left: 0px !important; }
+  /* Fire Guide - Center Navigation Buttons */
+  .page-id-23801 .gform_wrapper form ul.gform_fields:not(.top_label) li.gfield_html_formatted { margin-left: 16% !important; margin-bottom: 60px; }
+  .page-id-23801 .gform_wrapper form ul.gform_fields:not(.top_label) .gfield_label { margin-bottom: 0; }
+  /* Fire Guide - Benchmark List Items &  */
+  .page-id-23801 .gfield_label { width: 600px !important; }
+  .page-id-23801 .gform_wrapper ul.gform_fields:not(.top_label) li ul.gfield_checkbox { width: auto !important; }
+  #field_33_26, #choice_33_26_1 { margin: 0; }
+  .rm_navigation_buttons { -webkit-justify-content: space-around !important; }
+  #field_33_77, #field_33_78, #field_33_79, #field_33_80, #field_33_81, #field_33_82, #field_33_83 { font-size: 32 !important; margin-left: 16% !important; } }
+/* SPECIAL OPS */
+.special-ops-spoiler-icon { width: 30px; padding-right: 5px; float: left; margin-top: -5; }
+
+/* MAJOR INCIDENTS */

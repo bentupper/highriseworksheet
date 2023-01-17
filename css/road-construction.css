@@ -1,0 +1,61 @@
+/*==================================================================================
+*
+*                                    ROAD CONSTRUCTION PAGE
+*
+*===================================================================================*/  
+
+#road_construction-container {
+	padding: 15px;
+	max-width: 900px;
+	margin: auto;
+}
+
+.road-project-title {
+	font-size: 1.5em;
+	color: #f96c0e;
+	text-align: left !important;
+}
+
+#road_construction-container table th {
+	text-align: center;
+	border: .5px solid #000 !important;
+}
+
+#road_construction-container td {
+	border: .5px solid #000 !important;
+	text-align: center;
+	font-size: 16px !important;
+}
+
+.road-project-table {
+	padding: 2px;
+	background: none !important;
+	background-color: #eaeaea !important;
+	color: #000 !important;
+}
+
+.page-id-19218 .ui-accordion-header {
+	background: #f96c0e !important;
+	color: #000 !important;
+	font-weight: bold;
+	padding: 10px !important;
+	border-radius: 10px;
+}
+
+.page-id-19218 .ui-accordion-content {
+	height: auto !important;
+}
+
+.road-project-content-background {
+ 	margin-bottom: 40px !important;
+ 	padding: 20px 0px 100px 20px !important;
+ 	background: none !important;
+	background-color: #eaeaea !important;
+	color: #000 !important;
+	font-size: 14px !important;
+ }
+
+.road-project-description {
+ 	padding: 30px 10px;
+ 	text-align: left !important;
+ }

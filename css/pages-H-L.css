@@ -1,0 +1,456 @@
+/*=================================================================
+*                              PAGES H-L
+===================================================================*/
+
+                                                             /******* HAZMAT RESPONSE FORM Page  ********/
+.page-id-17971 .inside-article {
+   background: none !important;
+    background-color: #eaeaea !important;
+    color: #000 !important;
+    line-height: 2.5;
+}
+
+                                                             /******* HEALTH & SAFETY Page  ********/
+#post-75 .entry-header img {
+  border-radius: 100%;
+}
+
+#osha-board-table {
+    border: 5px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+#osha-board-table td {
+  text-align: center;
+}
+
+#osha-board-table tr, td {
+  border: none !important;
+}
+
+.osha-box {
+  border: solid 2px #000 !important;
+  width: 90px;
+  height: 90px;
+  font-size: 22px !important;
+  font-weight: bold;
+  text-shadow: .5px .5px #000;
+}
+
+.safety-motto {
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.osha-board-label {
+  font-weight: bold;
+}
+
+.total-dollar-loss {
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.total-dollar-loss span {
+  font-size: 20px !important;
+}
+
+th {
+  text-align: center;
+}
+
+/* All H&S Accordions */
+.page-id-75 .ui-state-default {
+  background: none;
+  background-color: #cc0000 !important;
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#accident-accordion,
+#mass-exposure-reports-accordion {
+    width: 100% !important;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Vehicle Accidents Accordion */
+#accident-accordion .ui-accordion-content,
+#mass-exposure-reports-accordion .ui-accordion-content {
+  padding: 5px !important;
+}
+
+/* Vehicle Accidents Table */
+#accident-totals-table {
+    background-color: #fff;
+    color: #000;
+    width: 100% !important;
+    font-size: 12px !important;
+}
+
+#accident-totals-table th,
+#accident-totals-table td {
+    padding: 2px;
+}
+
+/* Vehicle Accidents Table */
+#accident-totals-table th {
+    border: #000 .25px solid;
+    background-color: #d5dbdb;
+}
+
+/* Vehicle Accidents Table */
+#accident-totals-table td {
+    border: #d5dbdb solid 1px !important;
+    text-align: center;
+}
+
+/* Mass Exposures Accordion - allows for full screen width by overriding another CSS style */
+#panel-75-0-0-0 {
+  max-width: 600px !important;
+}
+
+/* Disables the "click" animation */
+#panel-75-0-0-0:active {
+  transform: none;
+}
+
+/* Mass Exposures Table - Changes font-size of the table headers*/
+.tablepress-id-16 th {
+  font-size: 10px !important;
+}
+
+/* Mass Exposures Table - Changes font-size of the data*/
+.tablepress-id-16 td {
+  font-size: 10px !important;
+}
+
+/* Mass Exposures Table - Adjusts the widths of the columns */
+          /* Date */
+.tablepress-id-16 .column-1,
+.tablepress-id-16 .column-2 {
+  width: 60px;  
+}
+
+/* Mass Exposure Accordion - Hide content on mobile devices */
+.tablepress-id-16 .column-6,.tablepress-id-16 .column-7, .tablepress-id-16 .column-8, .tablepress-id-16 .column-9,
+.tablepress-id-16 .column-10, .tablepress-id-16 .column-11, .tablepress-id-16 .column-12,
+.tablepress-id-16 .column-13, .tablepress-id-16 .column-14, .tablepress-id-16 .column-15, 
+.tablepress-id-16 .column-16, .tablepress-id-16 .column-17, .tablepress-id-16 .column-18,
+.tablepress-id-16 .column-19, .tablepress-id-16 .column-20, .tablepress-id-16 .column-21, 
+.tablepress-id-16 .column-22, .tablepress-id-16 .column-23  {
+    display: none !important;
+}
+
+/* Centers the Mass Exposure list */
+#panel-75-0-0-0 {
+	margin: auto;
+}
+
+#panel-75-1-0-0 {
+  max-width: none !important;
+}
+
+/* Go Back link - Removes the unnecessary border */
+#panel-75-2-0-0 {
+  border: none;
+}
+
+                                                        /***********  HIGH RISE WORKSHEET   ***********/
+                                                                  /* Has it's own CSS file */
+
+
+                                                             /******* HOME Page  ********/
+.header-image {
+  width: 50%;
+}
+
+/* Banner on Home Page Styles */
+.banner-title {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: .5px .5px .5px #000;
+}
+
+.banner-button {
+  display: inline;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.banner-button a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.promotion-title {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: .5px .5px .5px #000;
+}
+
+.promotion-button {
+  display: inline;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.promotion-button a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+/* 1st Big Banner on Home page */
+#panel-13994-2-0-0 {
+  min-height: 0;
+  max-width: none;
+  background-color: #0bbc1a;
+  padding-top: 5px;
+  padding-bottom: 0 !important;
+  border: #fff 4px solid;
+  text-shadow: .5px .5px .5px 3px;
+}
+
+/* Hides the 1st Big Banner */
+#pg-13994-2 {
+  /* display: none !important;*/
+}
+
+/* 2nd Big Banner on Home page*/
+#panel-13994-3-0-0 {
+  min-height: 0;
+  max-width: none;
+  background-color: #cc0000;
+  padding-top: 5px;
+  border: #fff 4px solid;
+}
+
+/* Hides the 2nd Big Red Banner */
+#pg-13994-3 {
+  display: none !important;
+}
+
+/* Social Media buttons on Home page under Twitter Feed */
+aside#custom_html-13 {
+    background-color: transparent !important;
+}
+
+                                                             /******* HOUSE CAPT's Page  ********/
+                                                            
+                                                             
+
+                                                             /*******  HR Page  ********/
+/* Removes the Min Height of the Go Back link */
+#panel-58-3-0-0 {
+  min-height: 0 !important;
+}
+
+/* Styling for the HR/Personnel News */
+.page-id-58 div[id^="panel-"] {
+  max-width: none !important;
+}
+
+/* Adds a gray background to the news boxes */
+.page-id-58 .su-post {
+  background-color: #eaeaea;
+  color: #000;
+  padding: 20px;
+}
+
+/* Widens the news boxes */
+.page-id-58 .su-posts {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+
+
+                                                             /*******  HSA Declaration Form  ********/
+.page-id-20097 .inside-article {
+  background: none !important;
+  background-color: #eaeaea !important;
+  color: #000 !important;
+}
+
+.page-id-20097 .gform_title {
+  font-size: 28px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hsa-form-verbage {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+                                                             /******* I.T. Page  ********/
+#panel-74-2-0-0 {
+  border: none;
+}
+
+/* Telestaff Help */
+.page-id-8694 h3 {
+  color: #fff;
+}
+
+/* Centers page, and keeps it from getting too wide */
+/*.page-id-16209 .inside-article {
+  max-width: 600px;
+  margin: auto;
+}*/
+
+/* Removes the Min Height of the Go Back link */
+#panel-74-3-0-0 {
+  min-height: 0 !important;
+  margin: auto;
+}
+
+/* Styling for the I.T. News */
+.page-id-74 div[id^="panel-"] {
+  max-width: 700px !important;
+}
+
+/* Adds a gray background to the news boxes */
+.page-id-74 .su-post {
+  background-color: #eaeaea;
+  color: #000;
+  padding: 20px;
+}
+
+/* Widens the news boxes */
+.page-id-74 .su-posts {
+  max-width: none;
+}
+
+
+                                                             /******* LOGISTICS Page ********/
+/* Styling for the Logistics News */
+.page-id-13790 div[id^="panel-"] {
+  max-width: none;
+}
+
+.page-id-13790 .su-post {
+  background-color: #eaeaea;
+    color: #000;
+    padding: 20px;
+}
+
+.page-id-13790 .su-post-comments-link {
+  display: none;
+}
+
+/* Sets width for the news box */
+.page-id-13790 .su-posts {
+  max-width: 600px;
+  margin: auto;
+}
+
+                                                             /******* LOSS CALCULATOR Page ********/
+/* The Loss Calculator is on two pages (Loss Calculator, and Mobile Command Fire Guide) 
+                    Loss Calculator = .page-id-17831
+          Mobile Command Fire Guide = .page-id-18519
+*/
+
+/* Styles & Colors the background of form */
+.page-id-17831 .inside-article {
+  padding: 80px 40px;
+  background: none !important;
+  background-color: darkgray !important;
+  color: #000 !important;
+}
+
+/* Centers the page title */
+.page-id-17831 .entry-title,
+.page-id-18519 .entry-title {
+  text-align: center;
+  padding-left: 0;
+}
+
+/* Adds space between the boxes and limits their size */
+.page-id-17831 input, 
+.page-id-17831 select,
+.page-id-18519 input,
+.page-id-18519 select {
+  max-width: 75% !important;
+}
+
+/* Centers all input and select boxes */
+.page-id-17831 .ginput_container_number,
+.page-id-17831 .ginput_container_select,
+.page-id-18519 .ginput_containter_number,
+.page-id-18519 .ginput_container_select {
+  margin: auto;
+  text-align: center;
+}
+
+/* Adds a border, background color around titles and centers them */
+.page-id-17831 .gform_wrapper h2,
+.page-id-18519 .gform_wrapper h2 {
+  border: 1px #fff solid;
+  text-align: center;
+  background-color: #f96c0e;
+  margin-top: 60px !important;
+  width: 100%;
+}
+
+/* Adds spacing on top and bottom, and centers the link to the Assessor's Office */
+.page-id-17831 #field_2_2,
+.page-id-18519 #field_2_2 {
+  margin: 30px auto;
+  text-align: center;
+  background-color: #f96c0e;
+  border: 3px #fff solid;
+  border-radius: 30px;
+}
+
+/* Styles the text in the button on the Loss Calc page */
+.page-id-17831 #field_2_2 a {
+  color: #000;
+  text-shadow: .25px .5px .25px #fff;
+}
+
+/* Hide up/down arrows ("spinners") on Property value field marked type="number" */
+/* Spinners are up/down arrows on an input[type="numbers"] element */
+.page-id-17831 #input_2_5::-webkit-outer-spin-button,
+.page-id-17831 #input_2_5::-webkit-inner-spin-button,
+.page-id-18519 #input_2_5::-webkit-outer-spin-button,
+.page-id-18519 #input_2_5::-webkit-inner-spin-button {
+  -moz-appearance:textfield !important;
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+/* Grays out the CONTENTS value box...it is automatically calculated */
+.page-id-17831 #input_2_7,
+.page-id-18519 #input_2_7 {
+  background-color: #848484;
+  color: #444444;
+}
+
+/* Adds spacing for top and centers the Submit button */
+.page-id-17831 .gform_footer,
+.page-id-18519 .gform_footer {
+  text-align: center;
+  margin: 60px 0 0;
+}
+
+/* Changes the color of the submit button */
+.page-id-17831 input[type="submit"],
+.page-id-18519 input[type="submit"] {
+  background-color: #f96c0e;
+}

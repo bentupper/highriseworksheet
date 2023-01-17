@@ -1,0 +1,225 @@
+/* =======================================================================================
+*
+*                                    MEDIA QUERIES
+*       Adjusts the content for varying sizes of screens larger than mobile devices
+*
+
+*=========================================================================================*/
+
+/*
+*           **************************************************************
+*                            Kindle Fire 7" Screen
+*           ***************************************************************
+*/
+@media ( min-width: 600px )   {
+  
+  div[id^="pg-"] {
+    -webkit-flex-direction: row !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+  }
+
+}
+
+/*
+*           **************************************************************
+*                            iPad, iPad Pro, Laptops & Larger
+*           ***************************************************************
+*/
+@media ( min-width: 768px )   {
+
+/* Global */  
+h1 {
+  font-size: 28px !important;
+}
+
+.hide-on-mobile {
+    visibility: visible !important;
+} 
+
+/* Global */    
+.separate-containers .inside-article {
+    padding: 5px;
+    text-align: center;
+}
+
+/* Logistics Page - adjusts the page for small screen*/
+#tablepress-8  {
+  max-width: 95%;
+}
+
+/* Login Form styling  - Moves remember me box to the right*/
+#rememberme {
+  margin-left: 10px;
+}
+
+.header-image {
+  width: 30% !important;
+}
+
+.inside-header {
+    padding: 80px 0px 120px 0px;
+}
+
+div[id^="panel-"] {
+    min-height: 225px;
+    padding-bottom: 0;
+}
+
+div[id^="pg-"] {
+  -webkit-flex-direction: row !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+}
+
+                                  /* ***************** CHIEF'S page *******************/
+.page-id-14881 .entry-title {
+	margin-left: -30%;
+	margin-top: -30px;
+	padding-bottom: 30px;
+}
+
+                                  /* ***************** COMMAND page *******************/
+
+/* Command - Fire Guide  ********/
+.command-fire-guide-high-rise-button {
+  max-width: 400px;
+  margin: 30px auto !important;
+}
+
+/* High Rise Worksheet */
+.clear-both-mobile-only {
+  clear: both;
+}
+
+/* High Rise Worksheet - Moves the 'Clear Form' button to the right */
+#gform_submit_button_17 {
+  float: right;
+  position: static;
+}
+
+/* High Rise Worksheet - Styles the 'Go to' buttons */
+#gform_next_button_17_5,
+#gform_previous_button_17 {
+  max-width: 300px;
+  display: block;
+  margin: 60px auto;
+}
+
+/* High Rise Worksheet - Moves the Save button to the left and styles it */
+#gform_save_17_link {
+  margin-left: 0;
+}
+
+/* High Rise Worksheet - Displays Inputs Inline */
+.page-id-18662 .gform_wrapper ul li.gfield {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 0 10px 5px;
+}
+
+/*  Adds Space between 1st and 2nd row icons */
+#pg-13994-0,    /* Home page Row 1*/
+#pg-13994-1,    /* Home page Row 2*/
+#pg-13994-2,    /* Home page Row 3*/
+#pg-13994-3,    /* Home page Row 4*/
+#pg-13994-4,    /* Home page Row 5*/
+#pg-13994-5,    /* Home page Row 6*/
+#pg-11964-1,    /* House Capt's page */
+#pg-506-1,      /* Ops page*/
+#pg-13790-1,    /* Logs page */
+#pg-12898-1,    /* Tech page */
+#pg-11986-1,
+#pg-74-1,       /* Admin page */
+#pg-63-2 {      /* EMS page */
+  margin-top: 80px;
+}
+
+                                  /* ***************** EXECUTIVE OFFICER page *******************/
+.page-id-21380 .inside-article,
+.page-id-21385 .inside-article {
+  padding: 40px 80px !important;
+}
+
+.page-id-21380 .su-spoiler-title,
+.page-id-21385 .su-spoiler-title {
+  max-width: 800px;
+  margin: auto;
+}
+
+
+                                  /* ***************** HEALTH & SAFETY page *******************/
+/* Health & Safety page - Accidents Accordion */
+#accident-accordion {
+  max-width: 600px !important;
+}
+
+#panel-75-0-0-0,
+#panel-75-1-0-0 {
+  min-height: initial !important;
+}
+
+                                   /* ***************** LOSS CALCULATOR page *******************/
+  /* Keeps the content from getting too wide.  Looks horrible */
+  .page-id-17831 .inside-article {
+    max-width: 700px;
+    margin: auto;
+  }
+ 
+  /* Lines up the 'Total' field labels with the box */
+  label[for="input_2_13"],
+  label[for="input_2_14"] {
+    margin-left: 20%;
+  }
+
+  /* Styling for the 'Click here to find...' value link. */
+  .page-id-17831 #field_2_2 a {
+    font-size: 24px;
+    line-height: 4;
+    color: #f96c0e;
+  }
+  
+                                  /* ***************** MASS EXPOSURE page *******************/  
+/* Mass Exposure Accordion - Widens it to show more content*/
+#panel-75-0-0-0,
+#mass-exposure-reports-accordion {
+  max-width: none !important;
+}
+
+/* Mass Exposure Accordion - Show more content in wider accordion */
+.tablepress-id-16 .column-6, .tablepress-id-16 .column-7, .tablepress-id-16 .column-8, .tablepress-id-16 .column-9,
+.tablepress-id-16 .column-10, .tablepress-id-16 .column-11, .tablepress-id-16 .column-12,
+.tablepress-id-16 .column-13, .tablepress-id-16 .column-14, .tablepress-id-16 .column-15, 
+.tablepress-id-16 .column-16, .tablepress-id-16 .column-17, .tablepress-id-16 .column-18,
+.tablepress-id-16 .column-19, .tablepress-id-16 .column-20, .tablepress-id-16 .column-21, 
+.tablepress-id-16 .column-22, .tablepress-id-16 .column-23  {
+    display: table-cell !important;
+}
+
+                                  /* ***************** MOBILE CAD VIDEOS page *******************/
+.page-id-19902 h4 {
+  text-align: right;
+}
+
+                                  /* ***************** PROMOTION page *******************/
+.promotion-title,
+.promotion-button {
+  display: inline-block;
+}
+
+                                  /* ***************** SIIT Reports page *******************/
+.siit-instructions {
+  font-size: 16px !important;
+}
+
+.footer-widgets a {
+  line-height: 30px;
+}
+
+} /* end media query*/
+
+
+/***********************************************************
+*                                   end All Media Queries 
+************************************************************/
+

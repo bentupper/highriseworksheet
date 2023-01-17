@@ -1,0 +1,237 @@
+/*=================================================================
+*                              PAGES Q-Z
+===================================================================*/
+                                                             /*******QUARTERMASTER Page ********/
+#panel-78-1-3-0,
+#panel-78-3-0-0 {
+  border: none;
+}                     
+                                                             /******* QUARTERMASTER REPORTS*******/
+.page-id-13893 {
+  background: none;
+    background-color: darkgray;
+    color: #000;
+}
+
+                                                              /******* RECRUITMENT Page  ********/
+.page-id-13045 .inside-article {
+  background: none;
+  background-color: darkgray;
+  color: #000 !important;
+  font-size: 14px;
+  line-height: 1.75 !important;
+  text-align: justify !important;
+  margin: auto;
+  max-width: 700px;
+}
+
+#panel-13045-0-0-0 {
+  max-width: 800px;
+}
+
+#panel-13045-0-0-1 {
+  max-width: none;
+}
+
+#panel-13045-0-0-1 p,
+#panel-13045-0-1-0 p {
+  text-align: left;
+}
+
+#panel-13045-1-0-0 {
+  background-color: #eaeaea;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 18px 18px 50px #000;
+}
+
+                                                             /******* RISK REDUCTION Page  ********/
+/*#panel-79-2-0-0 {
+  border: none;
+}*/
+
+/* Styling for the Risk Reduction News */
+.page-id-12898 div[id^="panel-"] {
+  max-width: none;
+}
+
+/* Styling for the Risk Reduction News */
+.page-id-12898 .su-post {
+  background-color: #eaeaea;
+    color: #000;
+    padding: 20px;
+}
+
+/* Styling for the Risk Reduction News */
+.page-id-12898 .su-post-comments-link {
+  display: none;
+}
+
+/* Sets width for the news box */
+.page-id-12898 .su-posts {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+
+                                                            /******* SINGLE PAGES  ********/
+.single-post .inside-article {
+  background-color: #eaeaea;
+    color: #000;
+}
+
+                                                            /******* SPECIAL OPS Page  ********/
+
+#panel-91-2-0-0 {
+  border: none;
+}
+                                                            /******* STATION Pages  ********/
+
+.wp-image-14144 {
+  border-radius: 100%;
+}
+
+.station-table-link {
+  text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#tablepress-7 {
+  max-width: 500px;
+    margin: auto;
+}
+                                                              /******* Station 25 *******/
+
+.page-id-150 {
+  color: #fff;
+}
+
+.page-id-150 ul li,
+.page-id-150 p {
+  font-size: 18px;
+}
+
+
+                                                              /******* TELESTAFF HELP Page  ********/
+.page-id-18431 div[id^="panel"]{
+  min-height: 0;
+  max-width: none;
+}
+
+.page-id-18431 h3.widget-title {
+  font-size: 22px !important;
+  margin-bottom: 5px !important;
+}
+
+.page-id-18431 .ts-help-format-button span {
+  line-height: 22px;
+}
+
+                                                             /******* TRAINING Page  ********/
+#panel-90-2-0-0 {
+  border: none;
+}
+
+                                                             /******* TRAINING FOR INSPECTIONS Page *******/
+/* Adjusts size of first row */  
+#panel-8204-0-0-0,
+#panel-8204-0-1-0,
+#panel-8204-0-2-0,
+#panel-8204-0-3-0 {
+  max-width: none !important;
+  min-height: 0 !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#pg-8204-1 {
+  align-items: stretch !important;
+}
+
+.page-id-8204 .pdfemb-viewer {
+  margin: auto;
+}
+
+#panel-8204-2-0-0 {
+  max-width: none !important;
+  min-height: 0 !important;
+  margin: auto;
+}
+
+                        /******* Training Reference Page *******/
+#panel-14535-1-0-0 {
+  border: none;
+}
+                                                             /******* TSU & BACKUPS Page  ********/
+.page-id-13715 {
+  background: none;
+    background-color: darkgray;
+    color: #000;
+}
+
+                                                             /******* WEBMASTER FEEDBACK FORM  ********/
+.page-id-22378 .gform_title {
+  display: none;
+}                                                           
+                                                             
+                                                             
+
+                                                             /******* WHO DO I CONTACT Page  ********/
+#tablepress-11 {
+  color: #000;
+  font-size: 12px;
+  width: 100%;
+}
+
+#panel-15412-0-0-0 {
+  max-width: none;
+}
+
+.after-hours {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 5px 20px !important;
+    margin: 50px auto;
+    border-radius: 15px;
+    max-width: 700px;
+}
+
+                                                             /******* WORKFORCE CENTRAL HELP Page  ********/
+/* Note: Section colors are in the Global 
+*  CSS settings at the top of this file */
+
+
+.page-id-18354 .inside-article {
+  padding: 20px;
+}
+
+.page-id-18354 div[id^="panel"]{
+  min-height: 0;
+  max-width: none;
+}
+
+/* Makes the Get Started buttons a uniform width */
+.page-id-18354 .wfc-get-started-button {
+  width: 300px;
+}
+
+/* Adds space between text if it's more than one line */
+.page-id-18354 .wfc-help-format-button span {
+  line-height: 22px;
+}
+
+/* Decreases the amount of space between the title and the content */
+.page-id-18354 div[id^="panel"] .widget-title {
+  margin-bottom: 5px !important;
+}
+
+/* Adjusts widths for mobile on Workforce Cent & Telestaff Buttons */
+.page-id-18354 .wfc-help-format-button,
+.page-id-18431 .ts-help-format-button {
+    width: 95% !important;
+    font-size: 14px !important; /* Added form below */
+}
